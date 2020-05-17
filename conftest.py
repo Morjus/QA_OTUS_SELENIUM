@@ -33,6 +33,5 @@ def browser(request):
         print("\nstart ie11 browser for test..")
         browser = webdriver.Ie("C:\\IE11driver\\IEDriverServer.exe")
 
-    browser.implicitly_wait(3)
     request.addfinalizer(browser.close)
     return browser
