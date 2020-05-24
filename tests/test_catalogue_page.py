@@ -2,17 +2,25 @@ import time
 import pytest
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select
-
+from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 from locators.CataloguePage import CataloguePageLocators
+
+
+def clickable_waiter(driver, wait_time, *args):
+    try:
+        element = WebDriverWait(driver, wait_time).until(EC.element_to_be_clickable(*args))
+        return element
+    except Exception as error:
+        print(f"Error is:", error)
+        return False
 
 
 def test_products_view_page(browser):
     link = "http://localhost//index.php?route=product/category&path=20"
     browser.get(link)
-    target = browser.find_element(*CataloguePageLocators.LIST_VIEW_BUTTON)
-    time.sleep(5)
-    target.click()
-    time.sleep(5)
+    button = clickable_waiter(browser, 5, CataloguePageLocators.LIST_VIEW_BUTTON)
+    button.click()
 
 
 def test_sidebar_menu(browser):
@@ -20,7 +28,6 @@ def test_sidebar_menu(browser):
     browser.get(link)
     target = browser.find_elements(*CataloguePageLocators.SIDEBAR_MENU)
     target[3].click()
-    time.sleep(5)
 
 
 @pytest.mark.parametrize("product",
@@ -29,22 +36,21 @@ def test_sidebar_menu(browser):
 def test_products_in_grid(browser, product):
     link = "http://localhost//index.php?route=product/category&path=20"
     browser.get(link)
-    target = browser.find_element(By.XPATH, product)
-    target.click()
-    time.sleep(1)
+    button = clickable_waiter(browser, 5, (By.XPATH, product))
+    button.click()
 
 
 def test_sort_dropdown(browser):
     link = "http://localhost//index.php?route=product/category&path=20"
     browser.get(link)
-    dropdown = Select(browser.find_element(*CataloguePageLocators.SORT_DROPDOWN))
+    dropdown = clickable_waiter(browser, 5, CataloguePageLocators.SORT_DROPDOWN)
+    dropdown = Select(dropdown)
     dropdown.select_by_index(4)
-    time.sleep(5)
 
 
 def test_show_dropdown(browser):
     link = "http://localhost//index.php?route=product/category&path=20"
     browser.get(link)
-    dropdown = Select(browser.find_element(*CataloguePageLocators.SHOW_DROPDOWN))
+    dropdown = clickable_waiter(browser, 5, CataloguePageLocators.SHOW_DROPDOWN)
+    dropdown = Select(dropdown)
     dropdown.select_by_index(4)
-    time.sleep(5)
