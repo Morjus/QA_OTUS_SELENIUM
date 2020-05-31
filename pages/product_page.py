@@ -2,6 +2,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select
 from .admin_page import AdminLoginPage
 import random
+import os
+import time
 
 
 class AdminProductPage(AdminLoginPage):
@@ -29,8 +31,11 @@ class AdminProductPage(AdminLoginPage):
     # Image tab
     IMAGE_TAB = (By.CSS_SELECTOR, '[href="#tab-image"]')
     IMAGE_THUMBNAIL = (By.CSS_SELECTOR, '#thumb-image')
-    ADD_IMG_THUMB = (By.CSS_SELECTOR, '.fa.fa-pencil')
+    ADD_IMG_THUMB = (By.CSS_SELECTOR, '#button-image')
     ADD_BUTTON = (By.CSS_SELECTOR, ".fa.fa-plus-circle")
+    INPUT_FOR_IMG = (By.CSS_SELECTOR, "label + .note-image-input.form-control")
+    MADE_BY_JS_INPUT = (By.CSS_SELECTOR, '#hard')
+    CLOSE = (By.CSS_SELECTOR, ".close")
     # General
     SAVE_BUTTON = (By.CSS_SELECTOR, ".fa.fa-save")
     SUCCESS_MESSAGE = (By.CSS_SELECTOR, ".alert.alert-success.alert-dismissible")
@@ -83,3 +88,29 @@ class AdminProductPage(AdminLoginPage):
         alert_obj.accept()
         success_text = self.find(locator=self.SUCCESS_MESSAGE).text
         assert "Success: You have modified products!" in success_text, "No success message"
+
+    def add_image_to_product(self):
+        edit_product = self.finds(locator=self.EDIT_BUTTONS)[3].click()
+        self.find(locator=self.IMAGE_TAB).click()
+        self.find(locator=self.IMAGE_THUMBNAIL).click()
+        self.find(locator=self.ADD_IMG_THUMB).click()
+        dirname = os.path.dirname(__file__)
+        filename = os.path.join(dirname, 'jpg_pass.JPG')
+        #time.sleep(4)
+        js = '''
+        document.getElementById("button-upload").setAttribute("onclick","document.getElementById('hard').click();");
+        var element = document.getElementById("button-upload");
+        var x = document.createElement("INPUT");
+        x.setAttribute("type", "file");
+        x.setAttribute("name", "name");
+        x.setAttribute("style", "display")
+        x.setAttribute("id", "hard");
+        element.appendChild(x);'''
+        self.driver.execute_script(js)
+        input_manager = self.find(locator=self.MADE_BY_JS_INPUT)
+        input_manager.send_keys(filename)
+        time.sleep(5)
+        self.find(locator=self.CLOSE).click()
+        #alert = self.driver.switch_to.alert
+        #time.sleep(5)
+        #alert.accept()
