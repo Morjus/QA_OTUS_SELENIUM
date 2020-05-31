@@ -9,7 +9,4 @@ class LoginAdminPageLocators:
     CANCEL_BUTTON = (By.CSS_SELECTOR, '.text-right a')
     LOGOUT_BUTTON = (By.CSS_SELECTOR, '#header div ul li:nth-child(2) a')
     CATALOG_MENU = (By.CSS_SELECTOR, '#menu-catalog a')
-    # collapse1 > li:nth-child(2) > a
-    # collapse1 > li:nth-child(2) > a
-    # collapse1 > li > a
     PRODUCTS_PAGE = (By.CSS_SELECTOR, '#collapse1 > li:nth-child(2) > a')

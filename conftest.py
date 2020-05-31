@@ -6,7 +6,7 @@ from selenium.webdriver.ie.options import Options as IeOptions
 
 
 def pytest_addoption(parser):
-    parser.addoption('--browser_name', action='store', default="chrome",
+    parser.addoption('--browser_name', action='store', default="firefox",
                      help="Choose browser: chrome, ie11 or firefox")
 
 
