@@ -39,12 +39,12 @@ class ProductCardPage(BasePage):
         name_in_message = self.find(locator=self.NAME_IN_MESSAGE).text
         self.find(locator=self.BASKET_BUTTON).click()
         name_in_basket = self.find(locator=self.PROD_NAME_IN_BASKET).text
-        assert prod_name == name_in_message == name_in_basket
+        return prod_name, name_in_message, name_in_basket
 
     def open_review_tab(self):
         self.find(locator=self.REVIEW_TAB).click()
         review_header = self.find(locator=self.REVIEW_HEADER).text
-        assert "Write a review" == review_header
+        assert "Write a review" == review_header, f"Wrong header name, got: {review_header}"
 
     def write_review(self):
         self.find(locator=self.INPUT_NAME).send_keys("Ivan")
@@ -57,7 +57,7 @@ class ProductCardPage(BasePage):
         self.find(locator=self.RADIO_BUTTON).click()
         self.find(locator=self.SUBMIT_REVIEW).click()
         text = self.find(locator=self.MESSAGE).text
-        assert "Thank you for your review. It has been submitted to the webmaster for approval." in text
+        return text
 
     def add_to_fav_button(self):
         self.find(locator=self.ADD_TO_FAV_BUTTON).click()
@@ -76,4 +76,4 @@ class ProductCardPage(BasePage):
         device_type = self.find(locator=self.TO_DEVICE_TYPES).text
         self.find(locator=self.TO_DEVICE_TYPES).click()
         device_header = self.find(locator=self.TYPE_HEADER).text
-        assert device_type == device_header
+        return device_type, device_header

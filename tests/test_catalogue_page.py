@@ -5,14 +5,16 @@ from pages.catalogue_page import CataloguePage
 def test_products_view_page(browser):
     page = CataloguePage(browser, url="http://localhost//index.php?route=product/category&path=20")
     page.open()
-    page.change_list_view()
+    exist_element = page.change_list_view()
+    assert exist_element is True, f"View did not changed"
 
 
 @pytest.mark.parametrize("menu_button", [i for i in range(0, 10)])
 def test_sidebar_menu(browser, menu_button):
     page = CataloguePage(browser, url="http://localhost//index.php?route=product/category&path=20")
     page.open()
-    page.side_bar_menu_click(menu_button)
+    page_header, text_in_menu_object = page.side_bar_menu_click(menu_button)
+    assert page_header in text_in_menu_object, f"{page_header} not equal {text_in_menu_object}, clicks missing"
 
 
 @pytest.mark.parametrize("product",
@@ -21,7 +23,8 @@ def test_sidebar_menu(browser, menu_button):
 def test_go_to_product_card(browser, product):
     page = CataloguePage(browser, url="http://localhost//index.php?route=product/category&path=20")
     page.open()
-    page.go_to_product_card(product)
+    prod_name, name_on_page = page.go_to_product_card(product)
+    assert prod_name in name_on_page, f"product: {prod_name} not appears in name on page: {name_on_page}"
 
 
 @pytest.mark.parametrize("index, expected_text", [
@@ -37,7 +40,8 @@ def test_go_to_product_card(browser, product):
 def test_sort_dropdown(browser, index, expected_text):
     page = CataloguePage(browser, url="http://localhost//index.php?route=product/category&path=20")
     page.open()
-    page.sort_dropdown(index, expected_text)
+    dropdown_text, expected_text = page.sort_dropdown(index, expected_text)
+    assert dropdown_text == expected_text, f"{dropdown_text} is not equal {expected_text}"
 
 
 @pytest.mark.parametrize("index, expected_text", [
@@ -49,4 +53,5 @@ def test_sort_dropdown(browser, index, expected_text):
 def test_sort_dropdown(browser, index, expected_text):
     page = CataloguePage(browser, url="http://localhost//index.php?route=product/category&path=20")
     page.open()
-    page.show_dropdown(index, expected_text)
+    dropdown_text, expected_text = page.show_dropdown(index, expected_text)
+    assert dropdown_text == expected_text, f"{dropdown_text} is not equal {expected_text}"

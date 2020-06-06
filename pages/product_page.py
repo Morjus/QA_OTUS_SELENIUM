@@ -70,14 +70,14 @@ class AdminProductPage(AdminLoginPage):
         self.find(locator=self.SORT_ORDER_FIELD).send_keys("0")
         self.find(locator=self.SAVE_BUTTON).click()
         success_text = self.find(locator=self.SUCCESS_MESSAGE).text
-        assert "Success: You have modified products!" in success_text, "No success message"
+        return success_text
 
     def change_random_product(self):
         edit_buttons = self.finds(locator=self.EDIT_BUTTONS)
         random_button_number = random.randrange(0, len(edit_buttons) + 1)
         random_button = edit_buttons[random_button_number].click()
         title = self.find(locator=self.EDIT_PROD_TITLE).text
-        assert "Edit Product" in title, "No 'Edit Product' in title"
+        return title
 
     def remove_random_product(self):
         checkboxes = self.finds(locator=self.CHECKBOXES)
@@ -87,7 +87,7 @@ class AdminProductPage(AdminLoginPage):
         alert_obj = self.driver.switch_to.alert
         alert_obj.accept()
         success_text = self.find(locator=self.SUCCESS_MESSAGE).text
-        assert "Success: You have modified products!" in success_text, "No success message"
+        return success_text
 
     def add_image_to_product(self):
         edit_product = self.finds(locator=self.EDIT_BUTTONS)[3].click()
