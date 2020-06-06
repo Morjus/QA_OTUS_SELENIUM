@@ -4,6 +4,7 @@ from .admin_page import AdminLoginPage
 import random
 import os
 import time
+import logging
 
 
 class AdminProductPage(AdminLoginPage):
@@ -48,11 +49,13 @@ class AdminProductPage(AdminLoginPage):
     def __init__(self, driver):
         super().__init__(driver)
         self.driver = driver
+        self.logger = logging.getLogger(type(self).__name__)
 
     def add_general_tab_info(self, product_name):
         self.find(locator=self.PRODUCT_NAME_FIELD).send_keys(product_name)
         script = f'document.querySelector(".note-editable.panel-body p"). innerHTML = "{product_name} – классический мобильный телефон. ";'
         self.driver.execute_script(script)
+        self.logger.info(f"Script work well")
         self.find(locator=self.META_FIELD).send_keys("Fly")
 
     def add_data_tab_info(self):
@@ -70,12 +73,14 @@ class AdminProductPage(AdminLoginPage):
         self.find(locator=self.SORT_ORDER_FIELD).send_keys("0")
         self.find(locator=self.SAVE_BUTTON).click()
         success_text = self.find(locator=self.SUCCESS_MESSAGE).text
+        self.logger.info(f"Success message presented: {success_text}")
         return success_text
 
     def change_random_product(self):
         edit_buttons = self.finds(locator=self.EDIT_BUTTONS)
         random_button_number = random.randrange(0, len(edit_buttons) + 1)
         random_button = edit_buttons[random_button_number].click()
+        self.logger.info(f"Random button clicked: {edit_buttons[random_button_number]}")
         title = self.find(locator=self.EDIT_PROD_TITLE).text
         return title
 
@@ -86,6 +91,7 @@ class AdminProductPage(AdminLoginPage):
         self.find(locator=self.DELETE_BUTTON).click()
         alert_obj = self.driver.switch_to.alert
         alert_obj.accept()
+        self.logger.info(f"Alert accepted.")
         success_text = self.find(locator=self.SUCCESS_MESSAGE).text
         return success_text
 

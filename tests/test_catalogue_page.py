@@ -13,8 +13,7 @@ def test_products_view_page(browser):
 def test_sidebar_menu(browser, menu_button):
     page = CataloguePage(browser, url="http://localhost//index.php?route=product/category&path=20")
     page.open()
-    page_header, text_in_menu_object = page.side_bar_menu_click(menu_button)
-    assert page_header in text_in_menu_object, f"{page_header} not equal {text_in_menu_object}, clicks missing"
+    page.side_bar_menu_click(menu_button)
 
 
 @pytest.mark.parametrize("product",

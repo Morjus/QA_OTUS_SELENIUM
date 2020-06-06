@@ -1,6 +1,7 @@
 from selenium.webdriver.common.by import By
 from .base import BasePage
 import time
+import logging
 
 
 class MainPage(BasePage):
@@ -23,15 +24,18 @@ class MainPage(BasePage):
         super().__init__(driver)
         self.driver = driver
         self.base_url = url
+        self.logger = logging.getLogger(type(self).__name__)
 
     def search_field(self, product):
         self.find(locator=self.SEARCH_FIELD).send_keys(product)
+        self.logger.info(f"{product} sended to {self.SEARCH_FIELD}")
         self.find(locator=self.SEARCH_BUTTON).click()
         assert product in self.find(locator=self.SEARCH_HEADER).text
         return self.finds(locator=self.PRODUCT_CARD)
 
     def go_to_basket(self):
         self.find(locator=self.BASKET_BUTTON).click()
+        self.logger.info(f"Basket page opened")
         return self.find(locator=self.BASKET_HEADER).text
 
     def check_dropdown(self, number):
@@ -39,10 +43,12 @@ class MainPage(BasePage):
         self.find(locator=self.MY_ACC_DROPDOWN).click()
         text = buttons[number].text.lower()
         buttons[number].click()
+        self.logger.info(f"Button: {buttons[number]} clicked")
         return text
 
     def adv_swiper_bullets(self):
         bullets = self.finds(locator=self.ADV_SWIPER_BULLETS)
         for element in bullets:
             element.click()
+            self.logger.info(f"Button: {element} clicked")
             time.sleep(0.2)

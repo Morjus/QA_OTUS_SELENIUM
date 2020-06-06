@@ -1,5 +1,6 @@
 from pages.admin_page import AdminLoginPage
 from pages.product_page import AdminProductPage
+import logging
 
 
 def test_login_add_product(browser):
@@ -17,6 +18,14 @@ def test_add_product(browser):
     page.add_new_product_page()
     page.add_general_tab_info("Fly Ezzy")
     success_message = page.add_data_tab_info()
+    # # Логи консоли браузера собирает WARNINGS, ERRORS
+    browser_logs = page.driver.get_log("browser")
+    logger = logging.getLogger(__name__)
+    logger.info('====== Started browser logs ======')
+    for row in browser_logs:
+        logger.info(row)
+    logger.info('====== Finished browser logs ======')
+
     assert "Success: You have modified products!" in success_message, "No success message"
 
 
@@ -35,5 +44,15 @@ def test_remove_product(browser):
     page.login("user", "bitnami1")
     page.go_to_product_page()
     success_message = page.remove_random_product()
+
+    # test proxy
+    proxy_logs = page.driver.har['log']
+    logger = logging.getLogger(__name__)
+    logger.info('====== Started browser logs ======')
+    for row in proxy_logs:
+        logger.info(row)
+    logger.info('====== Finished browser logs ======')
+
+
     assert "Success: You have modified products!" in success_message, "No success message"
 
