@@ -28,21 +28,18 @@ class MainPage(BasePage):
         self.find(locator=self.SEARCH_FIELD).send_keys(product)
         self.find(locator=self.SEARCH_BUTTON).click()
         assert product in self.find(locator=self.SEARCH_HEADER).text
-        for each in self.finds(locator=self.PRODUCT_CARD):
-            assert product in each.text
+        return self.finds(locator=self.PRODUCT_CARD)
 
     def go_to_basket(self):
         self.find(locator=self.BASKET_BUTTON).click()
-        assert "Shopping Cart" == self.find(locator=self.BASKET_HEADER).text
+        return self.find(locator=self.BASKET_HEADER).text
 
     def check_dropdown(self, number):
         buttons = self.finds(locator=self.ACC_DROPDOWN)
         self.find(locator=self.MY_ACC_DROPDOWN).click()
         text = buttons[number].text.lower()
-        print(text)
         buttons[number].click()
-        print(self.driver.current_url)
-        assert text in self.driver.current_url
+        return text
 
     def adv_swiper_bullets(self):
         bullets = self.finds(locator=self.ADV_SWIPER_BULLETS)

@@ -31,7 +31,8 @@ class CustomerLoginPage(BasePage):
 
     def go_reg_new_user(self):
         self.find(locator=self.NEW_CUSTOMER).click()
-        assert "Register Account" == self.find(locator=self.REG_HEADER).text
+        header = self.find(locator=self.REG_HEADER).text
+        return header
 
     def reg_new_user(self):
         self.find(locator=self.FIRST_NAME).send_keys('Ivan')
@@ -42,7 +43,8 @@ class CustomerLoginPage(BasePage):
         self.find(locator=self.PASSWORD_CONFIRM).send_keys("1234")
         self.find(locator=self.PRIVCY).click()
         self.find(locator=self.CONTINUE).click()
-        assert "Your Account Has Been Created!" == self.find(locator=self.REG_HEADER).text
+        header = self.find(locator=self.REG_HEADER).text
+        return header
 
     def reset_forgotten_password(self):
         self.find(locator=self.FORGOTTEN_PASSWORD).click()
@@ -51,15 +53,18 @@ class CustomerLoginPage(BasePage):
         self.find(locator=self.CONTINUE).click()
         print(self.find(
             locator=self.OK_MESSAGE).text)
-        assert "An email with a confirmation link has been sent your email address." == self.find(
+        success_message = self.find(
             locator=self.OK_MESSAGE).text
+        return success_message
 
     def login_existed_user(self):
         self.find(locator=self.EMAIL).send_keys('user@user.ru')
         self.find(locator=self.PASSWORD).send_keys('user')
         self.find(locator=self.LOGIN_BUTTON).click()
-        assert "My Account" == self.find(locator=self.LOGIN_HEADER).text
+        header = self.find(locator=self.LOGIN_HEADER).text
+        return header
 
     def go_to_main_page(self):
         self.find(locator=self.GO_TO_MAIN_PAGE).click()
-        assert "Featured" == self.find(locator=self.FEATURED).text
+        main_page_header = self.find(locator=self.FEATURED).text
+        return main_page_header

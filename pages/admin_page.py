@@ -33,7 +33,7 @@ class AdminLoginPage(BasePage):
         self._set_password_(PASSW_FIELD)
         self.find(locator=self.SUBMIT_BUTTON).click()
         text = self.find(locator=self.HEADER).text
-        assert text == "Dashboard"
+        return text
 
     def go_to_product_page(self):
         self.find(locator=self.CATALOG_MENU).click()
