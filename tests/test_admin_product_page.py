@@ -1,8 +1,10 @@
 from pages.admin_page import AdminLoginPage
 from pages.product_page import AdminProductPage
 import logging
+import allure
 
 
+@allure.feature('Авторизация администратора')
 def test_login_add_product(browser):
     page = AdminLoginPage(browser)
     page.open()
@@ -10,6 +12,7 @@ def test_login_add_product(browser):
     assert header == "Dashboard", f"No 'Dashboard' header, got {header}"
 
 
+@allure.feature('Каталог продуктов администратора')
 def test_add_product(browser):
     page = AdminProductPage(browser)
     page.open()
@@ -18,7 +21,6 @@ def test_add_product(browser):
     page.add_new_product_page()
     page.add_general_tab_info("Fly Ezzy")
     success_message = page.add_data_tab_info()
-    # # Логи консоли браузера собирает WARNINGS, ERRORS
     browser_logs = page.driver.get_log("browser")
     logger = logging.getLogger(__name__)
     logger.info('====== Started browser logs ======')
@@ -29,6 +31,7 @@ def test_add_product(browser):
     assert "Success: You have modified products!" in success_message, "No success message"
 
 
+@allure.feature('Каталог продуктов администратора')
 def test_change_product(browser):
     page = AdminProductPage(browser)
     page.open()
@@ -38,21 +41,17 @@ def test_change_product(browser):
     assert "Edit Product" in title, "No 'Edit Product' in title"
 
 
+@allure.feature('Каталог продуктов администратора')
 def test_remove_product(browser):
     page = AdminProductPage(browser)
     page.open()
     page.login("user", "bitnami1")
     page.go_to_product_page()
-    success_message = page.remove_random_product()
-
-    # test proxy
-    proxy_logs = page.driver.har['log']
+    with allure.step(f"Удаляю случайный продукт из каталога"):
+        success_message = page.remove_random_product()
     logger = logging.getLogger(__name__)
     logger.info('====== Started browser logs ======')
-    for row in proxy_logs:
+    for row in page.driver.har['log']:
         logger.info(row)
     logger.info('====== Finished browser logs ======')
-
-
     assert "Success: You have modified products!" in success_message, "No success message"
-

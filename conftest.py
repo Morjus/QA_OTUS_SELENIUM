@@ -5,11 +5,13 @@ from selenium.webdriver.chrome.options import Options as ChromeOptions
 from selenium.webdriver.firefox.options import Options as FirefoxOptions
 from selenium.webdriver.ie.options import Options as IeOptions
 from selenium.webdriver.support.events import EventFiringWebDriver, AbstractEventListener
+import allure
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 from browsermobproxy import Server, Client
 import urllib.parse
 import time
+import allure
 
 logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO, filename="test.log")
@@ -42,50 +44,28 @@ class ScreenshotListener(AbstractEventListener):
 
 
 def pytest_addoption(parser):
-    parser.addoption('--browser_name', action='store', default="chrome",
+    parser.addoption('--browser', action='store', default="chrome",
                      help="Choose browser: chrome, ie11 or firefox")
 
 
-@pytest.fixture
-def proxy_server(request):
-    server = Server("browsermob-proxy/bin/browsermob-proxy")
-    server.start()
-    time.sleep(1)
-    client = Client("localhost:8080")
-    time.sleep(1)
-    server.create_proxy()
-    request.addfinalizer(server.stop)
-    client.new_har()
-    return client
-
-
 @pytest.fixture(scope="function")
-def browser(request, proxy_server):
-    browser_name = request.config.getoption("browser_name")
+def browser(request):
+    browser_name = request.config.getoption("--browser")
     if browser_name == "chrome":
-        caps = DesiredCapabilities.CHROME
         options = ChromeOptions()
         options.add_argument("--start-maximized")
         options.add_argument('--ignore-certificate-errors')
-        # options.add_argument("--headless")
-        options.add_experimental_option('w3c', False)
-        caps['loggingPrefs'] = {'performance': 'ALL', 'browser': 'ALL'}
-
-        # proxy
-        proxy_url = urllib.parse.urlparse(proxy_server.proxy).path
+        options.add_argument("--headless")
+        d = DesiredCapabilities.CHROME
+        d['loggingPrefs'] = {'browser': 'ALL'}
         print("\nstart chrome browser for test..")
-        browser = EventFiringWebDriver(webdriver.Chrome(
-            options=options, desired_capabilities=caps
-        ), ScreenshotListener())
-
-        #browser.proxy = proxy_server
-
+        browser = webdriver.Chrome(options=options, desired_capabilities=d)
     elif browser_name == "firefox":
         options = FirefoxOptions()
         options.add_argument("--start-maximized")
         # options.add_argument("--headless")
         print("\nstart firefox browser for test..")
-        browser = EventFiringWebDriver(webdriver.Firefox(options=options), ScreenshotListener())
+        browser = webdriver.Firefox(options=options)
     elif browser_name == "ie11":
         options = IeOptions()
         options.add_argument("--start-maximized")
@@ -93,5 +73,18 @@ def browser(request, proxy_server):
         print("\nstart ie11 browser for test..")
         browser = webdriver.Ie("C:\\IE11driver\\IEDriverServer.exe")
 
-    request.addfinalizer(browser.close)
+    def fin():
+        try:
+            allure.attach(name=browser.session_id,
+                          body=str(browser.desired_capabilities),
+                          attachment_type=allure.attachment_type.JSON)
+            allure.attach(name="chrome log",
+                          body=browser.get_log('browser'),
+                          attachment_type=allure.attachment_type.TEXT)
+        except TypeError as e:
+            print(e)
+        finally:
+            browser.quit()
+
+    request.addfinalizer(fin)
     return browser

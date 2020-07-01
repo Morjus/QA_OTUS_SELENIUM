@@ -2,6 +2,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import NoSuchElementException
 import logging
+import allure
 
 
 class BasePage(object):
@@ -13,23 +14,39 @@ class BasePage(object):
 
     def find(self, locator, time=10):
         self.logger.info(f"Finding element:{locator}")
-        return WebDriverWait(self.driver, time).until(EC.presence_of_element_located(locator),
-                                                      message=f"Can't find element by locator {locator}")
+        with allure.step(f"Ищу элемент {locator}"):
+            try:
+                return WebDriverWait(self.driver, time).until(EC.presence_of_element_located(locator),
+                                                              message=f"Can't find element by locator {locator}")
+            except NoSuchElementException as e:
+                allure.attach(body=self.driver.get_screenshot_as_png(),
+                              name=f"{self.driver.session_id}",
+                              attachment_type=allure.attachment_type.PNG)
+                raise AssertionError(e.msg)
 
     def finds(self, locator, time=10):
         self.logger.info(f"Finding elements:{locator}")
-        return WebDriverWait(self.driver, time).until(EC.presence_of_all_elements_located(locator),
-                                                      message=f"Can't find elements by locator {locator}")
+        with allure.step(f"Ищу элементы {locator}"):
+            try:
+                return WebDriverWait(self.driver, time).until(EC.presence_of_all_elements_located(locator),
+                                                              message=f"Can't find elements by locator {locator}")
+            except NoSuchElementException as e:
+                allure.attach(body=self.driver.get_screenshot_as_png(),
+                              name=f"{self.driver.session_id}",
+                              attachment_type=allure.attachment_type.PNG)
+                raise AssertionError(e.msg)
 
     def is_element_present(self, locator, time=10):
         self.logger.info(f"Finding element exists:{locator}")
-        try:
-            WebDriverWait(self.driver, time).until(EC.visibility_of_element_located(locator),
-                                                      message=f"Can't find elements by locator {locator}")
-        except NoSuchElementException:
-            return False
-        return True
+        with allure.step(f"Проверяю наличие элемента на странице {locator}"):
+            try:
+                WebDriverWait(self.driver, time).until(EC.visibility_of_element_located(locator),
+                                                       message=f"Can't find elements by locator {locator}")
+            except NoSuchElementException:
+                return False
+            return True
 
     def open(self):
-        self.logger.info(f"Opening:{self.base_url}")
-        return self.driver.get(self.base_url)
+        with allure.step(f"Открыаю страницу {self.base_url}"):
+            self.logger.info(f"Opening:{self.base_url}")
+            return self.driver.get(self.base_url)

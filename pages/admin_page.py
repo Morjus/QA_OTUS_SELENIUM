@@ -1,6 +1,7 @@
 from selenium.webdriver.common.by import By
 from .base import BasePage
 import logging
+import allure
 
 
 class AdminLoginPage(BasePage):
@@ -24,27 +25,33 @@ class AdminLoginPage(BasePage):
 
     def _set_username_(self, name):
         self.find(locator=self.UNAME_FIELD).clear()
-        self.find(locator=self.UNAME_FIELD).send_keys(name)
+        with allure.step(f"Отправляю логин {name} в {self.UNAME_FIELD}"):
+            self.find(locator=self.UNAME_FIELD).send_keys(name)
 
-    def _set_password_(self, PASSW_FIELD):
+    def _set_password_(self, passw):
         self.find(locator=self.PASSW_FIELD).clear()
-        self.find(locator=self.PASSW_FIELD).send_keys(PASSW_FIELD)
+        with allure.step(f"Отправляю пароль {passw} в {self.PASSW_FIELD}"):
+            self.find(locator=self.PASSW_FIELD).send_keys(passw)
 
     def login(self, UNAME_FIELD, PASSW_FIELD):
         self._set_username_(UNAME_FIELD)
         self._set_password_(PASSW_FIELD)
-        self.find(locator=self.SUBMIT_BUTTON).click()
+        with allure.step(f"Нажимаю кнопку {self.SUBMIT_BUTTON}"):
+            self.find(locator=self.SUBMIT_BUTTON).click()
         text = self.find(locator=self.HEADER).text
         self.logger.info(f"Logged to admin page")
         return text
 
     def go_to_product_page(self):
-        self.find(locator=self.CATALOG_MENU).click()
-        self.find(locator=self.PRODUCTS_PAGE).click()
+        with allure.step(f"Нажимаю на кнопку {self.CATALOG_MENU}"):
+            self.find(locator=self.CATALOG_MENU).click()
+        with allure.step(f"Нажимаю кнопку {self.PRODUCTS_PAGE}"):
+            self.find(locator=self.PRODUCTS_PAGE).click()
         text = self.find(locator=self.HEADER).text
         self.logger.info(f"Opened product page")
         assert text == "Products"
 
     def add_new_product_page(self):
-        self.find(locator=self.ADD_PRODUCT_BUTTON).click()
+        with allure.step(f"Нажимаю на кнопку {self.ADD_PRODUCT_BUTTON}"):
+            self.find(locator=self.ADD_PRODUCT_BUTTON).click()
         self.logger.info(f"Clicked to: {self.ADD_PRODUCT_BUTTON}")

@@ -5,6 +5,7 @@ import random
 import os
 import time
 import logging
+import allure
 
 
 class AdminProductPage(AdminLoginPage):
@@ -51,49 +52,76 @@ class AdminProductPage(AdminLoginPage):
         self.driver = driver
         self.logger = logging.getLogger(type(self).__name__)
 
+    @allure.story("Добавление описания на главную вкладку товара")
     def add_general_tab_info(self, product_name):
-        self.find(locator=self.PRODUCT_NAME_FIELD).send_keys(product_name)
+        with allure.step(f"Ищу поле {self.PRODUCT_NAME_FIELD}"):
+            self.find(locator=self.PRODUCT_NAME_FIELD).send_keys(product_name)
         script = f'document.querySelector(".note-editable.panel-body p"). innerHTML = "{product_name} – классический мобильный телефон. ";'
-        self.driver.execute_script(script)
+        with allure.step(f"Выполняю скрипт поле {script}"):
+            self.driver.execute_script(script)
         self.logger.info(f"Script work well")
-        self.find(locator=self.META_FIELD).send_keys("Fly")
+        with allure.step(f"Отправляю название в поле {self.META_FIELD}"):
+            self.find(locator=self.META_FIELD).send_keys("Fly")
 
+    @allure.story("Добавление размеров и количество товара")
     def add_data_tab_info(self):
-        self.find(locator=self.DATA_TAB).click()
-        self.find(locator=self.MODEL_FIELD).send_keys("product22")
-        self.find(locator=self.PRICE_FIELD).send_keys("30.0000")
-        Select(self.find(locator=self.TAX_CLASS)).select_by_index(1)
-        self.find(locator=self.QUANTITY_FIELD).send_keys("2342")
-        Select(self.find(locator=self.OUT_OF_STOCK_STATUS)).select_by_index(1)
-        self.find(locator=self.DIMENSION_L).send_keys("50")
-        self.find(locator=self.DIMENSION_W).send_keys("107")
-        self.find(locator=self.DIMENSION_H).send_keys("15")
-        self.find(locator=self.WEIGHT_FIELD).send_keys("70")
-        self.find(locator=self.SORT_ORDER_FIELD).clear()
-        self.find(locator=self.SORT_ORDER_FIELD).send_keys("0")
-        self.find(locator=self.SAVE_BUTTON).click()
+        with allure.step(f"Переключаюсь на вкладку с данными товара {self.DATA_TAB}"):
+            self.find(locator=self.DATA_TAB).click()
+        with allure.step(f"Отправляю название в поле {self.MODEL_FIELD}"):
+            self.find(locator=self.MODEL_FIELD).send_keys("product22")
+        with allure.step(f"Отправляю цену в поле {self.PRICE_FIELD}"):
+            self.find(locator=self.PRICE_FIELD).send_keys("30.0000")
+        with allure.step(f"Выбираю из dropdown {self.TAX_CLASS} тип товара"):
+            Select(self.find(locator=self.TAX_CLASS)).select_by_index(1)
+        with allure.step(f"Отправляю количество товара в поле {self.QUANTITY_FIELD}"):
+            self.find(locator=self.QUANTITY_FIELD).send_keys("2342")
+        with allure.step(f"Выбираю состояние товара из dropdown {self.OUT_OF_STOCK_STATUS}"):
+            Select(self.find(locator=self.OUT_OF_STOCK_STATUS)).select_by_index(1)
+        with allure.step(f"Отправляю длину товара в поле {self.DIMENSION_L}"):
+            self.find(locator=self.DIMENSION_L).send_keys("50")
+        with allure.step(f"Отправляю ширину товара в поле {self.DIMENSION_W}"):
+            self.find(locator=self.DIMENSION_W).send_keys("107")
+        with allure.step(f"Отправляю высоту товара в поле {self.DIMENSION_H}"):
+            self.find(locator=self.DIMENSION_H).send_keys("15")
+        with allure.step(f"Отправляю вес товара в поле {self.WEIGHT_FIELD}"):
+            self.find(locator=self.WEIGHT_FIELD).send_keys("70")
+        with allure.step(f"Отправляю количство заказов в поле {self.META_FIELD}"):
+            self.find(locator=self.SORT_ORDER_FIELD).clear()
+            self.find(locator=self.SORT_ORDER_FIELD).send_keys("0")
+        with allure.step(f"Нажимаю на кнопку {self.SAVE_BUTTON}"):
+            self.find(locator=self.SAVE_BUTTON).click()
         success_text = self.find(locator=self.SUCCESS_MESSAGE).text
-        self.logger.info(f"Success message presented: {success_text}")
-        return success_text
+        with allure.step(f"Найден текст {success_text}"):
+            self.logger.info(f"Success message presented: {success_text}")
+            return success_text
 
+    @allure.story("Изменение случайного продукта в списке продуктов")
     def change_random_product(self):
-        edit_buttons = self.finds(locator=self.EDIT_BUTTONS)
+        with allure.step(f"Ищу все кнопки редактирования на странице {self.EDIT_BUTTONS}"):
+            edit_buttons = self.finds(locator=self.EDIT_BUTTONS)
         random_button_number = random.randrange(0, len(edit_buttons) + 1)
         random_button = edit_buttons[random_button_number].click()
-        self.logger.info(f"Random button clicked: {edit_buttons[random_button_number]}")
+        with allure.step(f"Выбрал случайную кнопку, и нажал {random_button}"):
+            self.logger.info(f"Random button clicked: {edit_buttons[random_button_number]}")
         title = self.find(locator=self.EDIT_PROD_TITLE).text
-        return title
+        with allure.step(f"Найден текст {title}"):
+            return title
 
+    @allure.story("Удаление случайного продукта в списке продуктов")
     def remove_random_product(self):
-        checkboxes = self.finds(locator=self.CHECKBOXES)
+        with allure.step(f"Ищу все чекбоксы на странице {self.CHECKBOXES}"):
+            checkboxes = self.finds(locator=self.CHECKBOXES)
         random_checkboxes_number = random.randrange(1, len(checkboxes) + 1)
         checkboxes[random_checkboxes_number].click()
-        self.find(locator=self.DELETE_BUTTON).click()
-        alert_obj = self.driver.switch_to.alert
-        alert_obj.accept()
+        with allure.step(f"Собираюсь нажать на {self.DELETE_BUTTON}"):
+            self.find(locator=self.DELETE_BUTTON).click()
+        with allure.step(f"Переключаюсь на алерт"):
+            alert_obj = self.driver.switch_to.alert
+            alert_obj.accept()
         self.logger.info(f"Alert accepted.")
         success_text = self.find(locator=self.SUCCESS_MESSAGE).text
-        return success_text
+        with allure.step(f"Алерт принят, текст {success_text} найден"):
+            return success_text
 
     def add_image_to_product(self):
         edit_product = self.finds(locator=self.EDIT_BUTTONS)[3].click()
