@@ -4,10 +4,9 @@ from pages.login_customer_page import CustomerLoginPage
 def test_new_customer_button(browser):
     page = CustomerLoginPage(browser, url="http://localhost/index.php?route=account/login")
     page.open()
-    header = page.go_reg_new_user()
-    assert "Register Account" == header, f"No such header on page, got {header}"
-    header = page.reg_new_user()
-    assert "Your Account Has Been Created!" == header, f"No such header on page, got {header}"
+    page.go_reg_new_user()
+    created_acc = page.reg_new_user()
+    assert "Your Account Has Been Created!" == created_acc, f"No such header on page, got {created_acc}"
 
 
 def test_reset_password(browser):

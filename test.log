@@ -1,0 +1,827 @@
+INFO:BasePage:Opening:https://developer.mozilla.org/ru/docs/Web/HTML/Element/Input/file
+INFO:root:I'm looking for '[name="myFile"]' with 'css selector'
+INFO:root:I've found '[name="myFile"]' with 'css selector'
+INFO:AdminProductPage:Opening:http://localhost/admin/
+INFO:AdminProductPage:Finding element:('css selector', '#input-username')
+INFO:root:I'm looking for '#input-username' with 'css selector'
+INFO:root:I've found '#input-username' with 'css selector'
+INFO:AdminProductPage:Finding element:('css selector', '#input-username')
+INFO:root:I'm looking for '#input-username' with 'css selector'
+INFO:root:I've found '#input-username' with 'css selector'
+INFO:AdminProductPage:Finding element:('css selector', '#input-password')
+INFO:root:I'm looking for '#input-password' with 'css selector'
+INFO:root:I've found '#input-password' with 'css selector'
+INFO:AdminProductPage:Finding element:('css selector', '#input-password')
+INFO:root:I'm looking for '#input-password' with 'css selector'
+INFO:root:I've found '#input-password' with 'css selector'
+INFO:AdminProductPage:Finding element:('css selector', 'button')
+INFO:root:I'm looking for 'button' with 'css selector'
+INFO:root:I've found 'button' with 'css selector'
+INFO:root:I'm clicking <selenium.webdriver.remote.webelement.WebElement (session="3dcf466876a41ab951ce51520d22aed8", element="0.9917315264583957-4")>
+INFO:root:I've clicked <selenium.webdriver.remote.webelement.WebElement (session="3dcf466876a41ab951ce51520d22aed8", element="0.9917315264583957-4")>
+INFO:AdminProductPage:Finding element:('css selector', 'h1')
+INFO:root:I'm looking for 'h1' with 'css selector'
+INFO:root:I've found 'h1' with 'css selector'
+INFO:AdminProductPage:Logged to admin page
+INFO:AdminProductPage:Finding element:('css selector', '#menu-catalog a')
+INFO:root:I'm looking for '#menu-catalog a' with 'css selector'
+INFO:root:I've found '#menu-catalog a' with 'css selector'
+INFO:root:I'm clicking <selenium.webdriver.remote.webelement.WebElement (session="3dcf466876a41ab951ce51520d22aed8", element="0.28554409885419063-2")>
+INFO:root:I've clicked <selenium.webdriver.remote.webelement.WebElement (session="3dcf466876a41ab951ce51520d22aed8", element="0.28554409885419063-2")>
+INFO:AdminProductPage:Finding element:('xpath', '//*[@id="collapse1"]/li[2]/a')
+INFO:root:I'm looking for '//*[@id="collapse1"]/li[2]/a' with 'xpath'
+INFO:root:I've found '//*[@id="collapse1"]/li[2]/a' with 'xpath'
+INFO:root:I'm clicking <selenium.webdriver.remote.webelement.WebElement (session="3dcf466876a41ab951ce51520d22aed8", element="0.28554409885419063-3")>
+INFO:root:I've clicked <selenium.webdriver.remote.webelement.WebElement (session="3dcf466876a41ab951ce51520d22aed8", element="0.28554409885419063-3")>
+INFO:AdminProductPage:Finding element:('css selector', 'h1')
+INFO:root:I'm looking for 'h1' with 'css selector'
+INFO:root:I've found 'h1' with 'css selector'
+INFO:AdminProductPage:Opened product page
+INFO:AdminProductPage:Finding elements:('css selector', '[data-original-title="Edit"]')
+INFO:root:I'm looking for '[data-original-title="Edit"]' with 'css selector'
+INFO:root:I've found '[data-original-title="Edit"]' with 'css selector'
+INFO:root:I'm clicking <selenium.webdriver.remote.webelement.WebElement (session="3dcf466876a41ab951ce51520d22aed8", element="0.6704108223322884-5")>
+INFO:root:I've clicked <selenium.webdriver.remote.webelement.WebElement (session="3dcf466876a41ab951ce51520d22aed8", element="0.6704108223322884-5")>
+INFO:AdminProductPage:Finding element:('css selector', '[href="#tab-image"]')
+INFO:root:I'm looking for '[href="#tab-image"]' with 'css selector'
+INFO:root:I've found '[href="#tab-image"]' with 'css selector'
+INFO:root:I'm clicking <selenium.webdriver.remote.webelement.WebElement (session="3dcf466876a41ab951ce51520d22aed8", element="0.10683770315782382-1")>
+INFO:root:I've clicked <selenium.webdriver.remote.webelement.WebElement (session="3dcf466876a41ab951ce51520d22aed8", element="0.10683770315782382-1")>
+INFO:AdminProductPage:Finding element:('css selector', '#thumb-image')
+INFO:root:I'm looking for '#thumb-image' with 'css selector'
+INFO:root:I've found '#thumb-image' with 'css selector'
+INFO:root:I'm clicking <selenium.webdriver.remote.webelement.WebElement (session="3dcf466876a41ab951ce51520d22aed8", element="0.10683770315782382-2")>
+INFO:root:I've clicked <selenium.webdriver.remote.webelement.WebElement (session="3dcf466876a41ab951ce51520d22aed8", element="0.10683770315782382-2")>
+INFO:AdminProductPage:Finding element:('css selector', '#button-image')
+INFO:root:I'm looking for '#button-image' with 'css selector'
+INFO:root:I've found '#button-image' with 'css selector'
+INFO:root:I'm clicking <selenium.webdriver.remote.webelement.WebElement (session="3dcf466876a41ab951ce51520d22aed8", element="0.10683770315782382-3")>
+INFO:root:I've clicked <selenium.webdriver.remote.webelement.WebElement (session="3dcf466876a41ab951ce51520d22aed8", element="0.10683770315782382-3")>
+ERROR:conftest:Oooops i got: Message: javascript error: Cannot read property 'setAttribute' of null
+  (Session info: chrome=83.0.4103.61)
+  (Driver info: chromedriver=83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}),platform=Windows NT 10.0.18363 x86_64)
+
+INFO:conftest:Saved screenshot: chrome.png
+INFO:AdminLoginPage:Opening:http://localhost/admin/
+INFO:AdminLoginPage:Finding element:('css selector', '#input-username')
+INFO:root:I'm looking for '#input-username' with 'css selector'
+INFO:root:I've found '#input-username' with 'css selector'
+INFO:AdminLoginPage:Finding element:('css selector', '#input-username')
+INFO:root:I'm looking for '#input-username' with 'css selector'
+INFO:root:I've found '#input-username' with 'css selector'
+INFO:AdminLoginPage:Finding element:('css selector', '#input-password')
+INFO:root:I'm looking for '#input-password' with 'css selector'
+INFO:root:I've found '#input-password' with 'css selector'
+INFO:AdminLoginPage:Finding element:('css selector', '#input-password')
+INFO:root:I'm looking for '#input-password' with 'css selector'
+INFO:root:I've found '#input-password' with 'css selector'
+INFO:AdminLoginPage:Finding element:('css selector', 'button')
+INFO:root:I'm looking for 'button' with 'css selector'
+INFO:root:I've found 'button' with 'css selector'
+INFO:root:I'm clicking <selenium.webdriver.remote.webelement.WebElement (session="323754e43873019e592d5b72305b5405", element="0.3291796713029962-4")>
+INFO:root:I've clicked <selenium.webdriver.remote.webelement.WebElement (session="323754e43873019e592d5b72305b5405", element="0.3291796713029962-4")>
+INFO:AdminLoginPage:Finding element:('css selector', 'h1')
+INFO:root:I'm looking for 'h1' with 'css selector'
+INFO:root:I've found 'h1' with 'css selector'
+INFO:AdminLoginPage:Logged to admin page
+INFO:AdminProductPage:Opening:http://localhost/admin/
+INFO:AdminProductPage:Finding element:('css selector', '#input-username')
+INFO:root:I'm looking for '#input-username' with 'css selector'
+INFO:root:I've found '#input-username' with 'css selector'
+INFO:AdminProductPage:Finding element:('css selector', '#input-username')
+INFO:root:I'm looking for '#input-username' with 'css selector'
+INFO:root:I've found '#input-username' with 'css selector'
+INFO:AdminProductPage:Finding element:('css selector', '#input-password')
+INFO:root:I'm looking for '#input-password' with 'css selector'
+INFO:root:I've found '#input-password' with 'css selector'
+INFO:AdminProductPage:Finding element:('css selector', '#input-password')
+INFO:root:I'm looking for '#input-password' with 'css selector'
+INFO:root:I've found '#input-password' with 'css selector'
+INFO:AdminProductPage:Finding element:('css selector', 'button')
+INFO:root:I'm looking for 'button' with 'css selector'
+INFO:root:I've found 'button' with 'css selector'
+INFO:root:I'm clicking <selenium.webdriver.remote.webelement.WebElement (session="bfaaed5136743daa1e0464832c84c886", element="0.9174440158341579-4")>
+INFO:root:I've clicked <selenium.webdriver.remote.webelement.WebElement (session="bfaaed5136743daa1e0464832c84c886", element="0.9174440158341579-4")>
+INFO:AdminProductPage:Finding element:('css selector', 'h1')
+INFO:root:I'm looking for 'h1' with 'css selector'
+INFO:root:I've found 'h1' with 'css selector'
+INFO:AdminProductPage:Logged to admin page
+INFO:AdminProductPage:Finding element:('css selector', '#menu-catalog a')
+INFO:root:I'm looking for '#menu-catalog a' with 'css selector'
+INFO:root:I've found '#menu-catalog a' with 'css selector'
+INFO:root:I'm clicking <selenium.webdriver.remote.webelement.WebElement (session="bfaaed5136743daa1e0464832c84c886", element="0.985078364079502-2")>
+INFO:root:I've clicked <selenium.webdriver.remote.webelement.WebElement (session="bfaaed5136743daa1e0464832c84c886", element="0.985078364079502-2")>
+INFO:AdminProductPage:Finding element:('xpath', '//*[@id="collapse1"]/li[2]/a')
+INFO:root:I'm looking for '//*[@id="collapse1"]/li[2]/a' with 'xpath'
+INFO:root:I've found '//*[@id="collapse1"]/li[2]/a' with 'xpath'
+INFO:root:I'm clicking <selenium.webdriver.remote.webelement.WebElement (session="bfaaed5136743daa1e0464832c84c886", element="0.985078364079502-3")>
+ERROR:conftest:Oooops i got: Message: element not interactable
+  (Session info: chrome=83.0.4103.61)
+  (Driver info: chromedriver=83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}),platform=Windows NT 10.0.18363 x86_64)
+
+INFO:conftest:Saved screenshot: chrome.png
+INFO:AdminProductPage:Opening:http://localhost/admin/
+INFO:AdminProductPage:Finding element:('css selector', '#input-username')
+INFO:root:I'm looking for '#input-username' with 'css selector'
+INFO:root:I've found '#input-username' with 'css selector'
+INFO:AdminProductPage:Finding element:('css selector', '#input-username')
+INFO:root:I'm looking for '#input-username' with 'css selector'
+INFO:root:I've found '#input-username' with 'css selector'
+INFO:AdminProductPage:Finding element:('css selector', '#input-password')
+INFO:root:I'm looking for '#input-password' with 'css selector'
+INFO:root:I've found '#input-password' with 'css selector'
+INFO:AdminProductPage:Finding element:('css selector', '#input-password')
+INFO:root:I'm looking for '#input-password' with 'css selector'
+INFO:root:I've found '#input-password' with 'css selector'
+INFO:AdminProductPage:Finding element:('css selector', 'button')
+INFO:root:I'm looking for 'button' with 'css selector'
+INFO:root:I've found 'button' with 'css selector'
+INFO:root:I'm clicking <selenium.webdriver.remote.webelement.WebElement (session="88c9a6e3515f7f6efa8b5a5d127d09bb", element="0.969642071555971-4")>
+INFO:root:I've clicked <selenium.webdriver.remote.webelement.WebElement (session="88c9a6e3515f7f6efa8b5a5d127d09bb", element="0.969642071555971-4")>
+INFO:AdminProductPage:Finding element:('css selector', 'h1')
+INFO:root:I'm looking for 'h1' with 'css selector'
+INFO:root:I've found 'h1' with 'css selector'
+INFO:AdminProductPage:Logged to admin page
+INFO:AdminProductPage:Finding element:('css selector', '#menu-catalog a')
+INFO:root:I'm looking for '#menu-catalog a' with 'css selector'
+INFO:root:I've found '#menu-catalog a' with 'css selector'
+INFO:root:I'm clicking <selenium.webdriver.remote.webelement.WebElement (session="88c9a6e3515f7f6efa8b5a5d127d09bb", element="0.7319465360860364-2")>
+INFO:root:I've clicked <selenium.webdriver.remote.webelement.WebElement (session="88c9a6e3515f7f6efa8b5a5d127d09bb", element="0.7319465360860364-2")>
+INFO:AdminProductPage:Finding element:('xpath', '//*[@id="collapse1"]/li[2]/a')
+INFO:root:I'm looking for '//*[@id="collapse1"]/li[2]/a' with 'xpath'
+INFO:root:I've found '//*[@id="collapse1"]/li[2]/a' with 'xpath'
+INFO:root:I'm clicking <selenium.webdriver.remote.webelement.WebElement (session="88c9a6e3515f7f6efa8b5a5d127d09bb", element="0.7319465360860364-3")>
+INFO:root:I've clicked <selenium.webdriver.remote.webelement.WebElement (session="88c9a6e3515f7f6efa8b5a5d127d09bb", element="0.7319465360860364-3")>
+INFO:AdminProductPage:Finding element:('css selector', 'h1')
+INFO:root:I'm looking for 'h1' with 'css selector'
+INFO:root:I've found 'h1' with 'css selector'
+INFO:AdminProductPage:Opened product page
+INFO:AdminProductPage:Finding elements:('css selector', '[data-original-title="Edit"]')
+INFO:root:I'm looking for '[data-original-title="Edit"]' with 'css selector'
+INFO:root:I've found '[data-original-title="Edit"]' with 'css selector'
+INFO:root:I'm clicking <selenium.webdriver.remote.webelement.WebElement (session="88c9a6e3515f7f6efa8b5a5d127d09bb", element="0.6874201893594363-12")>
+INFO:root:I've clicked <selenium.webdriver.remote.webelement.WebElement (session="88c9a6e3515f7f6efa8b5a5d127d09bb", element="0.6874201893594363-12")>
+INFO:AdminProductPage:Random button clicked: <selenium.webdriver.support.event_firing_webdriver.EventFiringWebElement object at 0x0459F580>
+INFO:AdminProductPage:Finding element:('css selector', '.panel-title')
+INFO:root:I'm looking for '.panel-title' with 'css selector'
+INFO:root:I've found '.panel-title' with 'css selector'
+INFO:AdminProductPage:Opening:http://localhost/admin/
+INFO:AdminProductPage:Finding element:('css selector', '#input-username')
+INFO:root:I'm looking for '#input-username' with 'css selector'
+INFO:root:I've found '#input-username' with 'css selector'
+INFO:AdminProductPage:Finding element:('css selector', '#input-username')
+INFO:root:I'm looking for '#input-username' with 'css selector'
+INFO:root:I've found '#input-username' with 'css selector'
+INFO:AdminProductPage:Finding element:('css selector', '#input-password')
+INFO:root:I'm looking for '#input-password' with 'css selector'
+INFO:root:I've found '#input-password' with 'css selector'
+INFO:AdminProductPage:Finding element:('css selector', '#input-password')
+INFO:root:I'm looking for '#input-password' with 'css selector'
+INFO:root:I've found '#input-password' with 'css selector'
+INFO:AdminProductPage:Finding element:('css selector', 'button')
+INFO:root:I'm looking for 'button' with 'css selector'
+INFO:root:I've found 'button' with 'css selector'
+INFO:root:I'm clicking <selenium.webdriver.remote.webelement.WebElement (session="32241f595e1a08441f22d6418160ed47", element="0.3610268465920812-4")>
+INFO:root:I've clicked <selenium.webdriver.remote.webelement.WebElement (session="32241f595e1a08441f22d6418160ed47", element="0.3610268465920812-4")>
+INFO:AdminProductPage:Finding element:('css selector', 'h1')
+INFO:root:I'm looking for 'h1' with 'css selector'
+INFO:root:I've found 'h1' with 'css selector'
+INFO:AdminProductPage:Logged to admin page
+INFO:AdminProductPage:Finding element:('css selector', '#menu-catalog a')
+INFO:root:I'm looking for '#menu-catalog a' with 'css selector'
+INFO:root:I've found '#menu-catalog a' with 'css selector'
+INFO:root:I'm clicking <selenium.webdriver.remote.webelement.WebElement (session="32241f595e1a08441f22d6418160ed47", element="0.9905744243712429-2")>
+INFO:root:I've clicked <selenium.webdriver.remote.webelement.WebElement (session="32241f595e1a08441f22d6418160ed47", element="0.9905744243712429-2")>
+INFO:AdminProductPage:Finding element:('xpath', '//*[@id="collapse1"]/li[2]/a')
+INFO:root:I'm looking for '//*[@id="collapse1"]/li[2]/a' with 'xpath'
+INFO:root:I've found '//*[@id="collapse1"]/li[2]/a' with 'xpath'
+INFO:root:I'm clicking <selenium.webdriver.remote.webelement.WebElement (session="32241f595e1a08441f22d6418160ed47", element="0.9905744243712429-3")>
+INFO:root:I've clicked <selenium.webdriver.remote.webelement.WebElement (session="32241f595e1a08441f22d6418160ed47", element="0.9905744243712429-3")>
+INFO:AdminProductPage:Finding element:('css selector', 'h1')
+INFO:root:I'm looking for 'h1' with 'css selector'
+INFO:root:I've found 'h1' with 'css selector'
+INFO:AdminProductPage:Opened product page
+INFO:AdminProductPage:Finding elements:('css selector', '[type="checkbox"]')
+INFO:root:I'm looking for '[type="checkbox"]' with 'css selector'
+INFO:root:I've found '[type="checkbox"]' with 'css selector'
+INFO:root:I'm clicking <selenium.webdriver.remote.webelement.WebElement (session="32241f595e1a08441f22d6418160ed47", element="0.4498812059584656-18")>
+INFO:root:I've clicked <selenium.webdriver.remote.webelement.WebElement (session="32241f595e1a08441f22d6418160ed47", element="0.4498812059584656-18")>
+INFO:AdminProductPage:Finding element:('css selector', '.fa.fa-trash-o')
+INFO:root:I'm looking for '.fa.fa-trash-o' with 'css selector'
+INFO:root:I've found '.fa.fa-trash-o' with 'css selector'
+INFO:root:I'm clicking <selenium.webdriver.remote.webelement.WebElement (session="32241f595e1a08441f22d6418160ed47", element="0.4498812059584656-23")>
+INFO:root:I've clicked <selenium.webdriver.remote.webelement.WebElement (session="32241f595e1a08441f22d6418160ed47", element="0.4498812059584656-23")>
+INFO:AdminProductPage:Alert accepted.
+INFO:AdminProductPage:Finding element:('css selector', '.alert.alert-success.alert-dismissible')
+INFO:root:I'm looking for '.alert.alert-success.alert-dismissible' with 'css selector'
+INFO:root:I've found '.alert.alert-success.alert-dismissible' with 'css selector'
+INFO:CataloguePage:Opening:http://localhost//index.php?route=product/category&path=20
+INFO:CataloguePage:Finding element:('css selector', '[id="list-view"].btn.btn-default > *')
+INFO:root:I'm looking for '[id="list-view"].btn.btn-default > *' with 'css selector'
+INFO:root:I've found '[id="list-view"].btn.btn-default > *' with 'css selector'
+INFO:root:I'm clicking <selenium.webdriver.remote.webelement.WebElement (session="9ffcfd736114ce63abdf1dca7a48762e", element="0.40534941438467387-1")>
+INFO:root:I've clicked <selenium.webdriver.remote.webelement.WebElement (session="9ffcfd736114ce63abdf1dca7a48762e", element="0.40534941438467387-1")>
+INFO:CataloguePage:Change list view
+INFO:CataloguePage:Finding element exists:('css selector', '[id="list-view"].btn.btn-default.active')
+INFO:root:I'm looking for '[id="list-view"].btn.btn-default.active' with 'css selector'
+INFO:root:I've found '[id="list-view"].btn.btn-default.active' with 'css selector'
+INFO:CataloguePage:Opening:http://localhost//index.php?route=product/category&path=20
+INFO:CataloguePage:Finding elements:('css selector', '.list-group > *')
+INFO:root:I'm looking for '.list-group > *' with 'css selector'
+INFO:root:I've found '.list-group > *' with 'css selector'
+INFO:root:I'm clicking <selenium.webdriver.remote.webelement.WebElement (session="8c6274a052aef812a80b523ea96443a4", element="0.3146036319737011-1")>
+INFO:root:I've clicked <selenium.webdriver.remote.webelement.WebElement (session="8c6274a052aef812a80b523ea96443a4", element="0.3146036319737011-1")>
+INFO:CataloguePage:Finding element:('css selector', 'h2')
+INFO:root:I'm looking for 'h2' with 'css selector'
+INFO:root:I've found 'h2' with 'css selector'
+INFO:CataloguePage:Desktops and Desktops (8) is on page
+INFO:CataloguePage:Opening:http://localhost//index.php?route=product/category&path=20
+INFO:CataloguePage:Finding elements:('css selector', '.list-group > *')
+INFO:root:I'm looking for '.list-group > *' with 'css selector'
+INFO:root:I've found '.list-group > *' with 'css selector'
+INFO:root:I'm clicking <selenium.webdriver.remote.webelement.WebElement (session="9b9caa43ac96ca44f6ad576ce4cf7145", element="0.25322368232681414-2")>
+INFO:root:I've clicked <selenium.webdriver.remote.webelement.WebElement (session="9b9caa43ac96ca44f6ad576ce4cf7145", element="0.25322368232681414-2")>
+INFO:CataloguePage:Finding element:('css selector', 'h2')
+INFO:root:I'm looking for 'h2' with 'css selector'
+INFO:root:I've found 'h2' with 'css selector'
+INFO:CataloguePage:PC and    - PC (0) is on page
+INFO:CataloguePage:Opening:http://localhost//index.php?route=product/category&path=20
+INFO:CataloguePage:Finding elements:('css selector', '.list-group > *')
+INFO:root:I'm looking for '.list-group > *' with 'css selector'
+INFO:root:I've found '.list-group > *' with 'css selector'
+INFO:root:I'm clicking <selenium.webdriver.remote.webelement.WebElement (session="2e97a46e25f74a1e895c47e7f4e87a0b", element="0.45600735006669124-3")>
+INFO:root:I've clicked <selenium.webdriver.remote.webelement.WebElement (session="2e97a46e25f74a1e895c47e7f4e87a0b", element="0.45600735006669124-3")>
+INFO:CataloguePage:Finding element:('css selector', 'h2')
+INFO:root:I'm looking for 'h2' with 'css selector'
+INFO:root:I've found 'h2' with 'css selector'
+INFO:CataloguePage:Mac and    - Mac (1) is on page
+INFO:CataloguePage:Opening:http://localhost//index.php?route=product/category&path=20
+INFO:CataloguePage:Finding elements:('css selector', '.list-group > *')
+INFO:root:I'm looking for '.list-group > *' with 'css selector'
+INFO:root:I've found '.list-group > *' with 'css selector'
+INFO:root:I'm clicking <selenium.webdriver.remote.webelement.WebElement (session="3ebafe73eed05cd9c4825d9dd16173b6", element="0.7355313687273566-4")>
+INFO:root:I've clicked <selenium.webdriver.remote.webelement.WebElement (session="3ebafe73eed05cd9c4825d9dd16173b6", element="0.7355313687273566-4")>
+INFO:CataloguePage:Finding element:('css selector', 'h2')
+INFO:root:I'm looking for 'h2' with 'css selector'
+INFO:root:I've found 'h2' with 'css selector'
+INFO:CataloguePage:Laptops & Notebooks and Laptops & Notebooks (3) is on page
+INFO:CataloguePage:Opening:http://localhost//index.php?route=product/category&path=20
+INFO:CataloguePage:Finding elements:('css selector', '.list-group > *')
+INFO:root:I'm looking for '.list-group > *' with 'css selector'
+INFO:root:I've found '.list-group > *' with 'css selector'
+INFO:root:I'm clicking <selenium.webdriver.remote.webelement.WebElement (session="90bb1f02797ce466f805623ca52683ce", element="0.24758224492818792-5")>
+INFO:root:I've clicked <selenium.webdriver.remote.webelement.WebElement (session="90bb1f02797ce466f805623ca52683ce", element="0.24758224492818792-5")>
+INFO:CataloguePage:Finding element:('css selector', 'h2')
+INFO:root:I'm looking for 'h2' with 'css selector'
+INFO:root:I've found 'h2' with 'css selector'
+INFO:CataloguePage:Components and Components (1) is on page
+INFO:CataloguePage:Opening:http://localhost//index.php?route=product/category&path=20
+INFO:CataloguePage:Finding elements:('css selector', '.list-group > *')
+INFO:root:I'm looking for '.list-group > *' with 'css selector'
+INFO:root:I've found '.list-group > *' with 'css selector'
+INFO:root:I'm clicking <selenium.webdriver.remote.webelement.WebElement (session="13d731a56212361e7fbda4db1328e541", element="0.103033141413444-6")>
+INFO:root:I've clicked <selenium.webdriver.remote.webelement.WebElement (session="13d731a56212361e7fbda4db1328e541", element="0.103033141413444-6")>
+INFO:CataloguePage:Finding element:('css selector', 'h2')
+INFO:root:I'm looking for 'h2' with 'css selector'
+INFO:root:I've found 'h2' with 'css selector'
+INFO:CataloguePage:Tablets and Tablets (1) is on page
+INFO:CataloguePage:Opening:http://localhost//index.php?route=product/category&path=20
+INFO:CataloguePage:Finding elements:('css selector', '.list-group > *')
+INFO:root:I'm looking for '.list-group > *' with 'css selector'
+INFO:root:I've found '.list-group > *' with 'css selector'
+INFO:root:I'm clicking <selenium.webdriver.remote.webelement.WebElement (session="7e56446cc04c631270a329314e8d8dd2", element="0.09165859747588367-7")>
+INFO:root:I've clicked <selenium.webdriver.remote.webelement.WebElement (session="7e56446cc04c631270a329314e8d8dd2", element="0.09165859747588367-7")>
+INFO:CataloguePage:Finding element:('css selector', 'h2')
+INFO:root:I'm looking for 'h2' with 'css selector'
+INFO:root:I've found 'h2' with 'css selector'
+INFO:CataloguePage:Software and Software (0) is on page
+INFO:CataloguePage:Opening:http://localhost//index.php?route=product/category&path=20
+INFO:CataloguePage:Finding elements:('css selector', '.list-group > *')
+INFO:root:I'm looking for '.list-group > *' with 'css selector'
+INFO:root:I've found '.list-group > *' with 'css selector'
+INFO:root:I'm clicking <selenium.webdriver.remote.webelement.WebElement (session="3c984dfafe9e8a5fb078254d9a61b060", element="0.3554964190887435-8")>
+INFO:root:I've clicked <selenium.webdriver.remote.webelement.WebElement (session="3c984dfafe9e8a5fb078254d9a61b060", element="0.3554964190887435-8")>
+INFO:CataloguePage:Finding element:('css selector', 'h2')
+INFO:root:I'm looking for 'h2' with 'css selector'
+INFO:root:I've found 'h2' with 'css selector'
+INFO:CataloguePage:Phones & PDAs and Phones & PDAs (2) is on page
+INFO:CataloguePage:Opening:http://localhost//index.php?route=product/category&path=20
+INFO:CataloguePage:Finding elements:('css selector', '.list-group > *')
+INFO:root:I'm looking for '.list-group > *' with 'css selector'
+INFO:root:I've found '.list-group > *' with 'css selector'
+INFO:root:I'm clicking <selenium.webdriver.remote.webelement.WebElement (session="f995d3990a36faf2e0439ad3b175799e", element="0.923547397820081-9")>
+INFO:root:I've clicked <selenium.webdriver.remote.webelement.WebElement (session="f995d3990a36faf2e0439ad3b175799e", element="0.923547397820081-9")>
+INFO:CataloguePage:Finding element:('css selector', 'h2')
+INFO:root:I'm looking for 'h2' with 'css selector'
+INFO:root:I've found 'h2' with 'css selector'
+INFO:CataloguePage:Cameras and Cameras (2) is on page
+INFO:CataloguePage:Opening:http://localhost//index.php?route=product/category&path=20
+INFO:CataloguePage:Finding elements:('css selector', '.list-group > *')
+INFO:root:I'm looking for '.list-group > *' with 'css selector'
+INFO:root:I've found '.list-group > *' with 'css selector'
+INFO:root:I'm clicking <selenium.webdriver.remote.webelement.WebElement (session="cade3e0698967ac392dc3302cd6da377", element="0.8732905581920711-10")>
+INFO:root:I've clicked <selenium.webdriver.remote.webelement.WebElement (session="cade3e0698967ac392dc3302cd6da377", element="0.8732905581920711-10")>
+INFO:CataloguePage:Finding element:('css selector', 'h2')
+INFO:root:I'm looking for 'h2' with 'css selector'
+INFO:root:I've found 'h2' with 'css selector'
+INFO:CataloguePage:MP3 Players and MP3 Players (4) is on page
+INFO:CataloguePage:Opening:http://localhost//index.php?route=product/category&path=20
+INFO:CataloguePage:Finding element:('xpath', '// *[ @ id = "content"] / div[4] / div[1] / div / div[2] / div[1] / h4 / a')
+INFO:root:I'm looking for '// *[ @ id = "content"] / div[4] / div[1] / div / div[2] / div[1] / h4 / a' with 'xpath'
+INFO:root:I've found '// *[ @ id = "content"] / div[4] / div[1] / div / div[2] / div[1] / h4 / a' with 'xpath'
+INFO:CataloguePage:Finding element:('xpath', '// *[ @ id = "content"] / div[4] / div[1] / div / div[2] / div[1] / h4 / a')
+INFO:root:I'm looking for '// *[ @ id = "content"] / div[4] / div[1] / div / div[2] / div[1] / h4 / a' with 'xpath'
+INFO:root:I've found '// *[ @ id = "content"] / div[4] / div[1] / div / div[2] / div[1] / h4 / a' with 'xpath'
+INFO:root:I'm clicking <selenium.webdriver.remote.webelement.WebElement (session="21f3c12318db353f117740945d5dc7d1", element="0.26551385816000606-1")>
+INFO:root:I've clicked <selenium.webdriver.remote.webelement.WebElement (session="21f3c12318db353f117740945d5dc7d1", element="0.26551385816000606-1")>
+INFO:CataloguePage:Finding element:('css selector', '.btn-group + h1')
+INFO:root:I'm looking for '.btn-group + h1' with 'css selector'
+INFO:root:I've found '.btn-group + h1' with 'css selector'
+INFO:CataloguePage:Canon EOS 5D and Canon EOS 5D found
+INFO:CataloguePage:Opening:http://localhost//index.php?route=product/category&path=20
+INFO:CataloguePage:Finding element:('xpath', '// *[ @ id = "content"] / div[4] / div[2] / div / div[2] / div[1] / h4 / a')
+INFO:root:I'm looking for '// *[ @ id = "content"] / div[4] / div[2] / div / div[2] / div[1] / h4 / a' with 'xpath'
+INFO:root:I've found '// *[ @ id = "content"] / div[4] / div[2] / div / div[2] / div[1] / h4 / a' with 'xpath'
+INFO:CataloguePage:Finding element:('xpath', '// *[ @ id = "content"] / div[4] / div[2] / div / div[2] / div[1] / h4 / a')
+INFO:root:I'm looking for '// *[ @ id = "content"] / div[4] / div[2] / div / div[2] / div[1] / h4 / a' with 'xpath'
+INFO:root:I've found '// *[ @ id = "content"] / div[4] / div[2] / div / div[2] / div[1] / h4 / a' with 'xpath'
+INFO:root:I'm clicking <selenium.webdriver.remote.webelement.WebElement (session="624d58f846f611e1450bb39b5cc465b5", element="0.8221452858526317-1")>
+INFO:root:I've clicked <selenium.webdriver.remote.webelement.WebElement (session="624d58f846f611e1450bb39b5cc465b5", element="0.8221452858526317-1")>
+INFO:CataloguePage:Finding element:('css selector', '.btn-group + h1')
+INFO:root:I'm looking for '.btn-group + h1' with 'css selector'
+INFO:root:I've found '.btn-group + h1' with 'css selector'
+INFO:CataloguePage:HP LP3065 and HP LP3065 found
+INFO:CataloguePage:Opening:http://localhost//index.php?route=product/category&path=20
+INFO:CataloguePage:Finding element:('xpath', '// *[ @ id = "content"] / div[4] / div[3] / div / div[2] / div[1] / h4 / a')
+INFO:root:I'm looking for '// *[ @ id = "content"] / div[4] / div[3] / div / div[2] / div[1] / h4 / a' with 'xpath'
+INFO:root:I've found '// *[ @ id = "content"] / div[4] / div[3] / div / div[2] / div[1] / h4 / a' with 'xpath'
+INFO:CataloguePage:Finding element:('xpath', '// *[ @ id = "content"] / div[4] / div[3] / div / div[2] / div[1] / h4 / a')
+INFO:root:I'm looking for '// *[ @ id = "content"] / div[4] / div[3] / div / div[2] / div[1] / h4 / a' with 'xpath'
+INFO:root:I've found '// *[ @ id = "content"] / div[4] / div[3] / div / div[2] / div[1] / h4 / a' with 'xpath'
+INFO:root:I'm clicking <selenium.webdriver.remote.webelement.WebElement (session="a6803aa94e7391c6fcac42a4af3c00ad", element="0.23316895558585582-1")>
+INFO:root:I've clicked <selenium.webdriver.remote.webelement.WebElement (session="a6803aa94e7391c6fcac42a4af3c00ad", element="0.23316895558585582-1")>
+INFO:CataloguePage:Finding element:('css selector', '.btn-group + h1')
+INFO:root:I'm looking for '.btn-group + h1' with 'css selector'
+INFO:root:I've found '.btn-group + h1' with 'css selector'
+INFO:CataloguePage:HTC Touch HD and HTC Touch HD found
+INFO:CataloguePage:Opening:http://localhost//index.php?route=product/category&path=20
+INFO:CataloguePage:Finding element:('xpath', '// *[ @ id = "content"] / div[4] / div[4] / div / div[2] / div[1] / h4 / a')
+INFO:root:I'm looking for '// *[ @ id = "content"] / div[4] / div[4] / div / div[2] / div[1] / h4 / a' with 'xpath'
+INFO:root:I've found '// *[ @ id = "content"] / div[4] / div[4] / div / div[2] / div[1] / h4 / a' with 'xpath'
+INFO:CataloguePage:Finding element:('xpath', '// *[ @ id = "content"] / div[4] / div[4] / div / div[2] / div[1] / h4 / a')
+INFO:root:I'm looking for '// *[ @ id = "content"] / div[4] / div[4] / div / div[2] / div[1] / h4 / a' with 'xpath'
+INFO:root:I've found '// *[ @ id = "content"] / div[4] / div[4] / div / div[2] / div[1] / h4 / a' with 'xpath'
+INFO:root:I'm clicking <selenium.webdriver.remote.webelement.WebElement (session="64a5f699b26cae8c1086be7fd4909550", element="0.36494647145011516-1")>
+INFO:root:I've clicked <selenium.webdriver.remote.webelement.WebElement (session="64a5f699b26cae8c1086be7fd4909550", element="0.36494647145011516-1")>
+INFO:CataloguePage:Finding element:('css selector', '.btn-group + h1')
+INFO:root:I'm looking for '.btn-group + h1' with 'css selector'
+INFO:root:I've found '.btn-group + h1' with 'css selector'
+INFO:CataloguePage:iPhone and iPhone found
+INFO:CataloguePage:Opening:http://localhost//index.php?route=product/category&path=20
+INFO:CataloguePage:Finding element:('xpath', '// *[ @ id = "content"] / div[4] / div[5] / div / div[2] / div[1] / h4 / a')
+INFO:root:I'm looking for '// *[ @ id = "content"] / div[4] / div[5] / div / div[2] / div[1] / h4 / a' with 'xpath'
+INFO:root:I've found '// *[ @ id = "content"] / div[4] / div[5] / div / div[2] / div[1] / h4 / a' with 'xpath'
+INFO:CataloguePage:Finding element:('xpath', '// *[ @ id = "content"] / div[4] / div[5] / div / div[2] / div[1] / h4 / a')
+INFO:root:I'm looking for '// *[ @ id = "content"] / div[4] / div[5] / div / div[2] / div[1] / h4 / a' with 'xpath'
+INFO:root:I've found '// *[ @ id = "content"] / div[4] / div[5] / div / div[2] / div[1] / h4 / a' with 'xpath'
+INFO:root:I'm clicking <selenium.webdriver.remote.webelement.WebElement (session="ab943aa490511370543c0d1317feb2f4", element="0.40107325693322626-1")>
+INFO:root:I've clicked <selenium.webdriver.remote.webelement.WebElement (session="ab943aa490511370543c0d1317feb2f4", element="0.40107325693322626-1")>
+INFO:CataloguePage:Finding element:('css selector', '.btn-group + h1')
+INFO:root:I'm looking for '.btn-group + h1' with 'css selector'
+INFO:root:I've found '.btn-group + h1' with 'css selector'
+INFO:CataloguePage:iPod Classic and iPod Classic found
+INFO:CataloguePage:Opening:http://localhost//index.php?route=product/category&path=20
+INFO:CataloguePage:Finding element:('xpath', '// *[ @ id = "content"] / div[4] / div[6] / div / div[2] / div[1] / h4 / a')
+INFO:root:I'm looking for '// *[ @ id = "content"] / div[4] / div[6] / div / div[2] / div[1] / h4 / a' with 'xpath'
+INFO:root:I've found '// *[ @ id = "content"] / div[4] / div[6] / div / div[2] / div[1] / h4 / a' with 'xpath'
+INFO:CataloguePage:Finding element:('xpath', '// *[ @ id = "content"] / div[4] / div[6] / div / div[2] / div[1] / h4 / a')
+INFO:root:I'm looking for '// *[ @ id = "content"] / div[4] / div[6] / div / div[2] / div[1] / h4 / a' with 'xpath'
+INFO:root:I've found '// *[ @ id = "content"] / div[4] / div[6] / div / div[2] / div[1] / h4 / a' with 'xpath'
+INFO:root:I'm clicking <selenium.webdriver.remote.webelement.WebElement (session="71635acefa1b711fa12f7d38c6e09ada", element="0.9526888484722285-1")>
+INFO:root:I've clicked <selenium.webdriver.remote.webelement.WebElement (session="71635acefa1b711fa12f7d38c6e09ada", element="0.9526888484722285-1")>
+INFO:CataloguePage:Finding element:('css selector', '.btn-group + h1')
+INFO:root:I'm looking for '.btn-group + h1' with 'css selector'
+INFO:root:I've found '.btn-group + h1' with 'css selector'
+INFO:CataloguePage:MacBook Air and MacBook Air found
+INFO:CataloguePage:Opening:http://localhost//index.php?route=product/category&path=20
+INFO:CataloguePage:Finding element:('xpath', '// *[ @ id = "content"] / div[4] / div[7] / div / div[2] / div[1] / h4 / a')
+INFO:root:I'm looking for '// *[ @ id = "content"] / div[4] / div[7] / div / div[2] / div[1] / h4 / a' with 'xpath'
+INFO:root:I've found '// *[ @ id = "content"] / div[4] / div[7] / div / div[2] / div[1] / h4 / a' with 'xpath'
+INFO:CataloguePage:Finding element:('xpath', '// *[ @ id = "content"] / div[4] / div[7] / div / div[2] / div[1] / h4 / a')
+INFO:root:I'm looking for '// *[ @ id = "content"] / div[4] / div[7] / div / div[2] / div[1] / h4 / a' with 'xpath'
+INFO:root:I've found '// *[ @ id = "content"] / div[4] / div[7] / div / div[2] / div[1] / h4 / a' with 'xpath'
+INFO:root:I'm clicking <selenium.webdriver.remote.webelement.WebElement (session="58bb6ee23c761ea60e168eb410596162", element="0.7607968787976447-1")>
+INFO:root:I've clicked <selenium.webdriver.remote.webelement.WebElement (session="58bb6ee23c761ea60e168eb410596162", element="0.7607968787976447-1")>
+INFO:CataloguePage:Finding element:('css selector', '.btn-group + h1')
+INFO:root:I'm looking for '.btn-group + h1' with 'css selector'
+INFO:root:I've found '.btn-group + h1' with 'css selector'
+INFO:CataloguePage:Samsung SyncMaster 941BW and Samsung SyncMaster 941BW found
+INFO:CataloguePage:Opening:http://localhost//index.php?route=product/category&path=20
+INFO:CataloguePage:Finding element:('xpath', '// *[ @ id = "content"] / div[4] / div[8] / div / div[2] / div[1] / h4 / a')
+INFO:root:I'm looking for '// *[ @ id = "content"] / div[4] / div[8] / div / div[2] / div[1] / h4 / a' with 'xpath'
+ERROR:conftest:Oooops i got: Message: no such element: Unable to locate element: {"method":"xpath","selector":"// *[ @ id = "content"] / div[4] / div[8] / div / div[2] / div[1] / h4 / a"}
+  (Session info: chrome=83.0.4103.61)
+  (Driver info: chromedriver=83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}),platform=Windows NT 10.0.18363 x86_64)
+
+INFO:conftest:Saved screenshot: chrome.png
+INFO:root:I'm looking for '// *[ @ id = "content"] / div[4] / div[8] / div / div[2] / div[1] / h4 / a' with 'xpath'
+ERROR:conftest:Oooops i got: Message: no such element: Unable to locate element: {"method":"xpath","selector":"// *[ @ id = "content"] / div[4] / div[8] / div / div[2] / div[1] / h4 / a"}
+  (Session info: chrome=83.0.4103.61)
+  (Driver info: chromedriver=83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}),platform=Windows NT 10.0.18363 x86_64)
+
+INFO:conftest:Saved screenshot: chrome.png
+INFO:root:I'm looking for '// *[ @ id = "content"] / div[4] / div[8] / div / div[2] / div[1] / h4 / a' with 'xpath'
+ERROR:conftest:Oooops i got: Message: no such element: Unable to locate element: {"method":"xpath","selector":"// *[ @ id = "content"] / div[4] / div[8] / div / div[2] / div[1] / h4 / a"}
+  (Session info: chrome=83.0.4103.61)
+  (Driver info: chromedriver=83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}),platform=Windows NT 10.0.18363 x86_64)
+
+INFO:conftest:Saved screenshot: chrome.png
+INFO:root:I'm looking for '// *[ @ id = "content"] / div[4] / div[8] / div / div[2] / div[1] / h4 / a' with 'xpath'
+ERROR:conftest:Oooops i got: Message: no such element: Unable to locate element: {"method":"xpath","selector":"// *[ @ id = "content"] / div[4] / div[8] / div / div[2] / div[1] / h4 / a"}
+  (Session info: chrome=83.0.4103.61)
+  (Driver info: chromedriver=83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}),platform=Windows NT 10.0.18363 x86_64)
+
+INFO:conftest:Saved screenshot: chrome.png
+INFO:root:I'm looking for '// *[ @ id = "content"] / div[4] / div[8] / div / div[2] / div[1] / h4 / a' with 'xpath'
+ERROR:conftest:Oooops i got: Message: no such element: Unable to locate element: {"method":"xpath","selector":"// *[ @ id = "content"] / div[4] / div[8] / div / div[2] / div[1] / h4 / a"}
+  (Session info: chrome=83.0.4103.61)
+  (Driver info: chromedriver=83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}),platform=Windows NT 10.0.18363 x86_64)
+
+INFO:conftest:Saved screenshot: chrome.png
+INFO:root:I'm looking for '// *[ @ id = "content"] / div[4] / div[8] / div / div[2] / div[1] / h4 / a' with 'xpath'
+ERROR:conftest:Oooops i got: Message: no such element: Unable to locate element: {"method":"xpath","selector":"// *[ @ id = "content"] / div[4] / div[8] / div / div[2] / div[1] / h4 / a"}
+  (Session info: chrome=83.0.4103.61)
+  (Driver info: chromedriver=83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}),platform=Windows NT 10.0.18363 x86_64)
+
+INFO:conftest:Saved screenshot: chrome.png
+INFO:root:I'm looking for '// *[ @ id = "content"] / div[4] / div[8] / div / div[2] / div[1] / h4 / a' with 'xpath'
+ERROR:conftest:Oooops i got: Message: no such element: Unable to locate element: {"method":"xpath","selector":"// *[ @ id = "content"] / div[4] / div[8] / div / div[2] / div[1] / h4 / a"}
+  (Session info: chrome=83.0.4103.61)
+  (Driver info: chromedriver=83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}),platform=Windows NT 10.0.18363 x86_64)
+
+INFO:conftest:Saved screenshot: chrome.png
+INFO:CataloguePage:Opening:http://localhost//index.php?route=product/category&path=20
+INFO:CataloguePage:Finding element:('css selector', '#input-limit')
+INFO:root:I'm looking for '#input-limit' with 'css selector'
+INFO:root:I've found '#input-limit' with 'css selector'
+INFO:root:I'm looking for 'option' with 'tag name'
+INFO:root:I've found 'option' with 'tag name'
+INFO:CataloguePage:Finding element:('css selector', '#input-limit option[selected="selected"]')
+INFO:root:I'm looking for '#input-limit option[selected="selected"]' with 'css selector'
+INFO:root:I've found '#input-limit option[selected="selected"]' with 'css selector'
+INFO:CataloguePage:15 and 15 found
+INFO:CataloguePage:Opening:http://localhost//index.php?route=product/category&path=20
+INFO:CataloguePage:Finding element:('css selector', '#input-limit')
+INFO:root:I'm looking for '#input-limit' with 'css selector'
+INFO:root:I've found '#input-limit' with 'css selector'
+INFO:root:I'm looking for 'option' with 'tag name'
+INFO:root:I've found 'option' with 'tag name'
+INFO:root:I'm clicking <selenium.webdriver.remote.webelement.WebElement (session="da00e33af4b1a8ba082964efc3f8f82e", element="0.9391683249070286-3")>
+INFO:root:I've clicked <selenium.webdriver.remote.webelement.WebElement (session="da00e33af4b1a8ba082964efc3f8f82e", element="0.9391683249070286-3")>
+INFO:CataloguePage:Finding element:('css selector', '#input-limit option[selected="selected"]')
+INFO:root:I'm looking for '#input-limit option[selected="selected"]' with 'css selector'
+INFO:root:I've found '#input-limit option[selected="selected"]' with 'css selector'
+INFO:CataloguePage:25 and 25 found
+INFO:CataloguePage:Opening:http://localhost//index.php?route=product/category&path=20
+INFO:CataloguePage:Finding element:('css selector', '#input-limit')
+INFO:root:I'm looking for '#input-limit' with 'css selector'
+INFO:root:I've found '#input-limit' with 'css selector'
+INFO:root:I'm looking for 'option' with 'tag name'
+INFO:root:I've found 'option' with 'tag name'
+INFO:root:I'm clicking <selenium.webdriver.remote.webelement.WebElement (session="472e0a1adae09507e51342dac91689c7", element="0.12350477132626536-4")>
+INFO:root:I've clicked <selenium.webdriver.remote.webelement.WebElement (session="472e0a1adae09507e51342dac91689c7", element="0.12350477132626536-4")>
+INFO:CataloguePage:Finding element:('css selector', '#input-limit option[selected="selected"]')
+INFO:root:I'm looking for '#input-limit option[selected="selected"]' with 'css selector'
+INFO:root:I've found '#input-limit option[selected="selected"]' with 'css selector'
+INFO:CataloguePage:50 and 50 found
+INFO:CataloguePage:Opening:http://localhost//index.php?route=product/category&path=20
+INFO:CataloguePage:Finding element:('css selector', '#input-limit')
+INFO:root:I'm looking for '#input-limit' with 'css selector'
+INFO:root:I've found '#input-limit' with 'css selector'
+INFO:root:I'm looking for 'option' with 'tag name'
+INFO:root:I've found 'option' with 'tag name'
+INFO:root:I'm clicking <selenium.webdriver.remote.webelement.WebElement (session="a0484336d29ed7b1d51dd78b58e39938", element="0.8729727454870557-5")>
+INFO:root:I've clicked <selenium.webdriver.remote.webelement.WebElement (session="a0484336d29ed7b1d51dd78b58e39938", element="0.8729727454870557-5")>
+INFO:CataloguePage:Finding element:('css selector', '#input-limit option[selected="selected"]')
+INFO:root:I'm looking for '#input-limit option[selected="selected"]' with 'css selector'
+INFO:root:I've found '#input-limit option[selected="selected"]' with 'css selector'
+INFO:CataloguePage:75 and 75 found
+INFO:CataloguePage:Opening:http://localhost//index.php?route=product/category&path=20
+INFO:CataloguePage:Finding element:('css selector', '#input-limit')
+INFO:root:I'm looking for '#input-limit' with 'css selector'
+INFO:root:I've found '#input-limit' with 'css selector'
+INFO:root:I'm looking for 'option' with 'tag name'
+INFO:root:I've found 'option' with 'tag name'
+INFO:root:I'm clicking <selenium.webdriver.remote.webelement.WebElement (session="23bd547d6542a71b4fd6d8ef6e2dfa03", element="0.11161869679505054-6")>
+INFO:root:I've clicked <selenium.webdriver.remote.webelement.WebElement (session="23bd547d6542a71b4fd6d8ef6e2dfa03", element="0.11161869679505054-6")>
+INFO:CataloguePage:Finding element:('css selector', '#input-limit option[selected="selected"]')
+INFO:root:I'm looking for '#input-limit option[selected="selected"]' with 'css selector'
+INFO:root:I've found '#input-limit option[selected="selected"]' with 'css selector'
+INFO:CataloguePage:100 and 100 found
+INFO:CustomerLoginPage:Opening:http://localhost/index.php?route=account/login
+INFO:CustomerLoginPage:Finding element:('css selector', '.well > a')
+INFO:root:I'm looking for '.well > a' with 'css selector'
+INFO:root:I've found '.well > a' with 'css selector'
+INFO:root:I'm clicking <selenium.webdriver.remote.webelement.WebElement (session="2171281c2fa23628643f4aea62c21b3a", element="0.1709517624095538-1")>
+INFO:root:I've clicked <selenium.webdriver.remote.webelement.WebElement (session="2171281c2fa23628643f4aea62c21b3a", element="0.1709517624095538-1")>
+INFO:CustomerLoginPage:Finding element:('css selector', '.col-sm-9 h1')
+INFO:root:I'm looking for '.col-sm-9 h1' with 'css selector'
+INFO:root:I've found '.col-sm-9 h1' with 'css selector'
+INFO:CustomerLoginPage:Registration page opened
+INFO:CustomerLoginPage:Finding element:('css selector', '#input-firstname')
+INFO:root:I'm looking for '#input-firstname' with 'css selector'
+INFO:root:I've found '#input-firstname' with 'css selector'
+INFO:CustomerLoginPage:Finding element:('css selector', '#input-lastname')
+INFO:root:I'm looking for '#input-lastname' with 'css selector'
+INFO:root:I've found '#input-lastname' with 'css selector'
+INFO:CustomerLoginPage:Finding element:('css selector', '#input-email')
+INFO:root:I'm looking for '#input-email' with 'css selector'
+INFO:root:I've found '#input-email' with 'css selector'
+INFO:CustomerLoginPage:Finding element:('css selector', '#input-telephone')
+INFO:root:I'm looking for '#input-telephone' with 'css selector'
+INFO:root:I've found '#input-telephone' with 'css selector'
+INFO:CustomerLoginPage:Finding element:('css selector', '#input-password')
+INFO:root:I'm looking for '#input-password' with 'css selector'
+INFO:root:I've found '#input-password' with 'css selector'
+INFO:CustomerLoginPage:Finding element:('css selector', '#input-confirm')
+INFO:root:I'm looking for '#input-confirm' with 'css selector'
+INFO:root:I've found '#input-confirm' with 'css selector'
+INFO:CustomerLoginPage:Finding element:('css selector', '[name="agree"]')
+INFO:root:I'm looking for '[name="agree"]' with 'css selector'
+INFO:root:I've found '[name="agree"]' with 'css selector'
+INFO:root:I'm clicking <selenium.webdriver.remote.webelement.WebElement (session="2171281c2fa23628643f4aea62c21b3a", element="0.13513512724414323-9")>
+INFO:root:I've clicked <selenium.webdriver.remote.webelement.WebElement (session="2171281c2fa23628643f4aea62c21b3a", element="0.13513512724414323-9")>
+INFO:CustomerLoginPage:Finding element:('css selector', '.btn.btn-primary')
+INFO:root:I'm looking for '.btn.btn-primary' with 'css selector'
+INFO:root:I've found '.btn.btn-primary' with 'css selector'
+INFO:root:I'm clicking <selenium.webdriver.remote.webelement.WebElement (session="2171281c2fa23628643f4aea62c21b3a", element="0.13513512724414323-10")>
+INFO:root:I've clicked <selenium.webdriver.remote.webelement.WebElement (session="2171281c2fa23628643f4aea62c21b3a", element="0.13513512724414323-10")>
+INFO:CustomerLoginPage:Finding element:('css selector', '.col-sm-9 h1')
+INFO:root:I'm looking for '.col-sm-9 h1' with 'css selector'
+INFO:root:I've found '.col-sm-9 h1' with 'css selector'
+INFO:CustomerLoginPage:Finding element exists:('xpath', '//*[@id="content"]/div/div/a')
+INFO:root:I'm looking for '//*[@id="content"]/div/div/a' with 'xpath'
+INFO:root:I've found '//*[@id="content"]/div/div/a' with 'xpath'
+INFO:CustomerLoginPage:New user registered
+INFO:CustomerLoginPage:Opening:http://localhost/index.php?route=account/login
+INFO:CustomerLoginPage:Finding element:('css selector', '.form-group > a')
+INFO:root:I'm looking for '.form-group > a' with 'css selector'
+INFO:root:I've found '.form-group > a' with 'css selector'
+INFO:root:I'm clicking <selenium.webdriver.remote.webelement.WebElement (session="44542248448958c2ac4b906646b159b2", element="0.3386230477992287-1")>
+INFO:root:I've clicked <selenium.webdriver.remote.webelement.WebElement (session="44542248448958c2ac4b906646b159b2", element="0.3386230477992287-1")>
+INFO:CustomerLoginPage:Finding element:('css selector', '.col-sm-9 h1')
+INFO:root:I'm looking for '.col-sm-9 h1' with 'css selector'
+INFO:root:I've found '.col-sm-9 h1' with 'css selector'
+INFO:CustomerLoginPage:Finding element:('css selector', '#input-email')
+INFO:root:I'm looking for '#input-email' with 'css selector'
+INFO:root:I've found '#input-email' with 'css selector'
+INFO:CustomerLoginPage:Finding element:('css selector', '.btn.btn-primary')
+INFO:root:I'm looking for '.btn.btn-primary' with 'css selector'
+INFO:root:I've found '.btn.btn-primary' with 'css selector'
+INFO:root:I'm clicking <selenium.webdriver.remote.webelement.WebElement (session="44542248448958c2ac4b906646b159b2", element="0.5566511927129727-4")>
+INFO:root:I've clicked <selenium.webdriver.remote.webelement.WebElement (session="44542248448958c2ac4b906646b159b2", element="0.5566511927129727-4")>
+INFO:CustomerLoginPage:Finding element:('css selector', '.alert')
+INFO:root:I'm looking for '.alert' with 'css selector'
+INFO:root:I've found '.alert' with 'css selector'
+INFO:CustomerLoginPage:Finding element:('css selector', '.alert')
+INFO:root:I'm looking for '.alert' with 'css selector'
+INFO:root:I've found '.alert' with 'css selector'
+INFO:CustomerLoginPage:Password resend
+INFO:CustomerLoginPage:Opening:http://localhost/index.php?route=account/login
+INFO:CustomerLoginPage:Finding element:('css selector', '#input-email')
+INFO:root:I'm looking for '#input-email' with 'css selector'
+INFO:root:I've found '#input-email' with 'css selector'
+INFO:CustomerLoginPage:Finding element:('css selector', '#input-password')
+INFO:root:I'm looking for '#input-password' with 'css selector'
+INFO:root:I've found '#input-password' with 'css selector'
+INFO:CustomerLoginPage:Finding element:('css selector', '.form-group + .btn.btn-primary')
+INFO:root:I'm looking for '.form-group + .btn.btn-primary' with 'css selector'
+INFO:root:I've found '.form-group + .btn.btn-primary' with 'css selector'
+INFO:root:I'm clicking <selenium.webdriver.remote.webelement.WebElement (session="7020e2cdb780edba7224f8c6889b8bc4", element="0.7159470367873797-4")>
+INFO:root:I've clicked <selenium.webdriver.remote.webelement.WebElement (session="7020e2cdb780edba7224f8c6889b8bc4", element="0.7159470367873797-4")>
+INFO:CustomerLoginPage:Finding element:('css selector', '.col-sm-9 h2')
+INFO:root:I'm looking for '.col-sm-9 h2' with 'css selector'
+INFO:root:I've found '.col-sm-9 h2' with 'css selector'
+INFO:CustomerLoginPage:Header:My Account found
+INFO:CustomerLoginPage:Opening:http://localhost/index.php?route=account/login
+INFO:CustomerLoginPage:Finding element:('css selector', '.breadcrumb li a')
+INFO:root:I'm looking for '.breadcrumb li a' with 'css selector'
+INFO:root:I've found '.breadcrumb li a' with 'css selector'
+INFO:root:I'm clicking <selenium.webdriver.remote.webelement.WebElement (session="160796b0b5236a66f2339215282da21c", element="0.34498202173123893-1")>
+INFO:root:I've clicked <selenium.webdriver.remote.webelement.WebElement (session="160796b0b5236a66f2339215282da21c", element="0.34498202173123893-1")>
+INFO:CustomerLoginPage:Finding element:('css selector', 'h3')
+INFO:root:I'm looking for 'h3' with 'css selector'
+INFO:root:I've found 'h3' with 'css selector'
+INFO:CustomerLoginPage:Main page header:Featured
+INFO:MainPage:Opening:http://localhost/
+INFO:MainPage:Finding element:('css selector', '[name="search"]')
+INFO:root:I'm looking for '[name="search"]' with 'css selector'
+INFO:root:I've found '[name="search"]' with 'css selector'
+INFO:MainPage:iPhone sended to ('css selector', '[name="search"]')
+INFO:MainPage:Finding element:('css selector', '.btn.btn-default.btn-lg')
+INFO:root:I'm looking for '.btn.btn-default.btn-lg' with 'css selector'
+INFO:root:I've found '.btn.btn-default.btn-lg' with 'css selector'
+INFO:root:I'm clicking <selenium.webdriver.remote.webelement.WebElement (session="cae1279b2952f8da7c7ca8442752dc88", element="0.5187129971863049-3")>
+INFO:root:I've clicked <selenium.webdriver.remote.webelement.WebElement (session="cae1279b2952f8da7c7ca8442752dc88", element="0.5187129971863049-3")>
+INFO:MainPage:Finding element:('css selector', '.col-sm-12 h1')
+INFO:root:I'm looking for '.col-sm-12 h1' with 'css selector'
+INFO:root:I've found '.col-sm-12 h1' with 'css selector'
+INFO:MainPage:Finding elements:('css selector', 'h4')
+INFO:root:I'm looking for 'h4' with 'css selector'
+INFO:root:I've found 'h4' with 'css selector'
+INFO:MainPage:Opening:http://localhost/
+INFO:MainPage:Finding element:('css selector', '[name="search"]')
+INFO:root:I'm looking for '[name="search"]' with 'css selector'
+INFO:root:I've found '[name="search"]' with 'css selector'
+INFO:MainPage:MacBook sended to ('css selector', '[name="search"]')
+INFO:MainPage:Finding element:('css selector', '.btn.btn-default.btn-lg')
+INFO:root:I'm looking for '.btn.btn-default.btn-lg' with 'css selector'
+INFO:root:I've found '.btn.btn-default.btn-lg' with 'css selector'
+INFO:root:I'm clicking <selenium.webdriver.remote.webelement.WebElement (session="c70fa7af856f79c7e300e7bf6095c5fe", element="0.1383358445649916-3")>
+INFO:root:I've clicked <selenium.webdriver.remote.webelement.WebElement (session="c70fa7af856f79c7e300e7bf6095c5fe", element="0.1383358445649916-3")>
+INFO:MainPage:Finding element:('css selector', '.col-sm-12 h1')
+INFO:root:I'm looking for '.col-sm-12 h1' with 'css selector'
+INFO:root:I've found '.col-sm-12 h1' with 'css selector'
+INFO:MainPage:Finding elements:('css selector', 'h4')
+INFO:root:I'm looking for 'h4' with 'css selector'
+INFO:root:I've found 'h4' with 'css selector'
+INFO:MainPage:Opening:http://localhost/
+INFO:MainPage:Finding element:('css selector', '.fa.fa-shopping-cart')
+INFO:root:I'm looking for '.fa.fa-shopping-cart' with 'css selector'
+INFO:root:I've found '.fa.fa-shopping-cart' with 'css selector'
+INFO:root:I'm clicking <selenium.webdriver.remote.webelement.WebElement (session="09d69458495b35803362a78978bddfba", element="0.351961191775817-1")>
+INFO:root:I've clicked <selenium.webdriver.remote.webelement.WebElement (session="09d69458495b35803362a78978bddfba", element="0.351961191775817-1")>
+INFO:MainPage:Basket page opened
+INFO:MainPage:Finding element:('css selector', '.col-sm-12 h1')
+INFO:root:I'm looking for '.col-sm-12 h1' with 'css selector'
+INFO:root:I've found '.col-sm-12 h1' with 'css selector'
+INFO:MainPage:Opening:http://localhost/
+INFO:MainPage:Finding elements:('css selector', '.dropdown-menu.dropdown-menu-right li a')
+INFO:root:I'm looking for '.dropdown-menu.dropdown-menu-right li a' with 'css selector'
+INFO:root:I've found '.dropdown-menu.dropdown-menu-right li a' with 'css selector'
+INFO:MainPage:Finding element:('css selector', '[title="My Account"]')
+INFO:root:I'm looking for '[title="My Account"]' with 'css selector'
+INFO:root:I've found '[title="My Account"]' with 'css selector'
+INFO:root:I'm clicking <selenium.webdriver.remote.webelement.WebElement (session="63a6bc383c33b327149e2adb808c3433", element="0.6923549494163703-3")>
+INFO:root:I've clicked <selenium.webdriver.remote.webelement.WebElement (session="63a6bc383c33b327149e2adb808c3433", element="0.6923549494163703-3")>
+INFO:root:I'm clicking <selenium.webdriver.remote.webelement.WebElement (session="63a6bc383c33b327149e2adb808c3433", element="0.6923549494163703-1")>
+INFO:root:I've clicked <selenium.webdriver.remote.webelement.WebElement (session="63a6bc383c33b327149e2adb808c3433", element="0.6923549494163703-1")>
+INFO:MainPage:Button: <selenium.webdriver.support.event_firing_webdriver.EventFiringWebElement object at 0x0450D988> clicked
+INFO:MainPage:Opening:http://localhost/
+INFO:MainPage:Finding elements:('css selector', '.dropdown-menu.dropdown-menu-right li a')
+INFO:root:I'm looking for '.dropdown-menu.dropdown-menu-right li a' with 'css selector'
+INFO:root:I've found '.dropdown-menu.dropdown-menu-right li a' with 'css selector'
+INFO:MainPage:Finding element:('css selector', '[title="My Account"]')
+INFO:root:I'm looking for '[title="My Account"]' with 'css selector'
+INFO:root:I've found '[title="My Account"]' with 'css selector'
+INFO:root:I'm clicking <selenium.webdriver.remote.webelement.WebElement (session="45fd6263a2655440d5701e44c9e65f26", element="0.7170327274946358-3")>
+INFO:root:I've clicked <selenium.webdriver.remote.webelement.WebElement (session="45fd6263a2655440d5701e44c9e65f26", element="0.7170327274946358-3")>
+INFO:root:I'm clicking <selenium.webdriver.remote.webelement.WebElement (session="45fd6263a2655440d5701e44c9e65f26", element="0.7170327274946358-2")>
+INFO:root:I've clicked <selenium.webdriver.remote.webelement.WebElement (session="45fd6263a2655440d5701e44c9e65f26", element="0.7170327274946358-2")>
+INFO:MainPage:Button: <selenium.webdriver.support.event_firing_webdriver.EventFiringWebElement object at 0x045577A8> clicked
+INFO:MainPage:Opening:http://localhost/
+INFO:MainPage:Finding elements:('css selector', '.swiper-pagination.carousel0.swiper-pagination-clickable.swiper-pagination-bullets > * ')
+INFO:root:I'm looking for '.swiper-pagination.carousel0.swiper-pagination-clickable.swiper-pagination-bullets > * ' with 'css selector'
+INFO:root:I've found '.swiper-pagination.carousel0.swiper-pagination-clickable.swiper-pagination-bullets > * ' with 'css selector'
+INFO:root:I'm clicking <selenium.webdriver.remote.webelement.WebElement (session="253b61681fd5c0a911a301f798f6c454", element="0.4104407999372013-1")>
+INFO:root:I've clicked <selenium.webdriver.remote.webelement.WebElement (session="253b61681fd5c0a911a301f798f6c454", element="0.4104407999372013-1")>
+INFO:MainPage:Button: <selenium.webdriver.support.event_firing_webdriver.EventFiringWebElement object at 0x0453EC88> clicked
+INFO:root:I'm clicking <selenium.webdriver.remote.webelement.WebElement (session="253b61681fd5c0a911a301f798f6c454", element="0.4104407999372013-2")>
+ERROR:conftest:Oooops i got: Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=83.0.4103.61)
+  (Driver info: chromedriver=83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}),platform=Windows NT 10.0.18363 x86_64)
+
+INFO:conftest:Saved screenshot: chrome.png
+INFO:ProductCardPage:Opening:http://localhost/index.php?route=product/product&path=57&product_id=49
+INFO:ProductCardPage:Finding element:('css selector', '.btn-group+h1')
+INFO:root:I'm looking for '.btn-group+h1' with 'css selector'
+INFO:root:I've found '.btn-group+h1' with 'css selector'
+INFO:ProductCardPage:Finding element:('css selector', '#button-cart')
+INFO:root:I'm looking for '#button-cart' with 'css selector'
+INFO:root:I've found '#button-cart' with 'css selector'
+INFO:root:I'm clicking <selenium.webdriver.remote.webelement.WebElement (session="720598b16c5de7f31c58cc01a3863e37", element="0.6789198552869349-2")>
+INFO:root:I've clicked <selenium.webdriver.remote.webelement.WebElement (session="720598b16c5de7f31c58cc01a3863e37", element="0.6789198552869349-2")>
+INFO:ProductCardPage:Finding element:('css selector', '.alert.alert-success.alert-dismissible a')
+INFO:root:I'm looking for '.alert.alert-success.alert-dismissible a' with 'css selector'
+ERROR:conftest:Oooops i got: Message: no such element: Unable to locate element: {"method":"css selector","selector":".alert.alert-success.alert-dismissible a"}
+  (Session info: chrome=83.0.4103.61)
+  (Driver info: chromedriver=83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}),platform=Windows NT 10.0.18363 x86_64)
+
+INFO:conftest:Saved screenshot: chrome.png
+INFO:root:I'm looking for '.alert.alert-success.alert-dismissible a' with 'css selector'
+INFO:root:I've found '.alert.alert-success.alert-dismissible a' with 'css selector'
+INFO:ProductCardPage:Finding element:('css selector', '#cart button #cart-total')
+INFO:root:I'm looking for '#cart button #cart-total' with 'css selector'
+INFO:root:I've found '#cart button #cart-total' with 'css selector'
+INFO:root:I'm clicking <selenium.webdriver.remote.webelement.WebElement (session="720598b16c5de7f31c58cc01a3863e37", element="0.6789198552869349-4")>
+INFO:root:I've clicked <selenium.webdriver.remote.webelement.WebElement (session="720598b16c5de7f31c58cc01a3863e37", element="0.6789198552869349-4")>
+INFO:ProductCardPage:Finding element:('css selector', '.text-left a')
+INFO:root:I'm looking for '.text-left a' with 'css selector'
+INFO:root:I've found '.text-left a' with 'css selector'
+INFO:ProductCardPage:Found prod_name:Samsung Galaxy Tab 10.1 name_in_message:Samsung Galaxy Tab 10.1 name_in_basket:Samsung Galaxy Tab 10.1
+INFO:ProductCardPage:Opening:http://localhost/index.php?route=product/product&path=57&product_id=49
+INFO:ProductCardPage:Finding element:('css selector', '.nav.nav-tabs :nth-child(2) > a')
+INFO:root:I'm looking for '.nav.nav-tabs :nth-child(2) > a' with 'css selector'
+INFO:root:I've found '.nav.nav-tabs :nth-child(2) > a' with 'css selector'
+INFO:root:I'm clicking <selenium.webdriver.remote.webelement.WebElement (session="03e2adf0721474dacf3e59d0349f3922", element="0.8507740254342426-1")>
+INFO:root:I've clicked <selenium.webdriver.remote.webelement.WebElement (session="03e2adf0721474dacf3e59d0349f3922", element="0.8507740254342426-1")>
+INFO:ProductCardPage:Finding element:('css selector', '#review + h2')
+INFO:root:I'm looking for '#review + h2' with 'css selector'
+INFO:root:I've found '#review + h2' with 'css selector'
+INFO:ProductCardPage:Review tab opened
+INFO:ProductCardPage:Finding element:('css selector', '#input-name')
+INFO:root:I'm looking for '#input-name' with 'css selector'
+INFO:root:I've found '#input-name' with 'css selector'
+INFO:ProductCardPage:Finding element:('css selector', '#input-review')
+INFO:root:I'm looking for '#input-review' with 'css selector'
+INFO:root:I've found '#input-review' with 'css selector'
+INFO:ProductCardPage:Finding element:('css selector', '[type="radio"][value="5"]')
+INFO:root:I'm looking for '[type="radio"][value="5"]' with 'css selector'
+INFO:root:I've found '[type="radio"][value="5"]' with 'css selector'
+INFO:root:I'm clicking <selenium.webdriver.remote.webelement.WebElement (session="03e2adf0721474dacf3e59d0349f3922", element="0.8507740254342426-5")>
+INFO:root:I've clicked <selenium.webdriver.remote.webelement.WebElement (session="03e2adf0721474dacf3e59d0349f3922", element="0.8507740254342426-5")>
+INFO:ProductCardPage:Finding element:('css selector', '#button-review')
+INFO:root:I'm looking for '#button-review' with 'css selector'
+INFO:root:I've found '#button-review' with 'css selector'
+INFO:root:I'm clicking <selenium.webdriver.remote.webelement.WebElement (session="03e2adf0721474dacf3e59d0349f3922", element="0.8507740254342426-6")>
+INFO:root:I've clicked <selenium.webdriver.remote.webelement.WebElement (session="03e2adf0721474dacf3e59d0349f3922", element="0.8507740254342426-6")>
+INFO:ProductCardPage:Finding element:('css selector', '.alert.alert-success.alert-dismissible')
+INFO:root:I'm looking for '.alert.alert-success.alert-dismissible' with 'css selector'
+ERROR:conftest:Oooops i got: Message: no such element: Unable to locate element: {"method":"css selector","selector":".alert.alert-success.alert-dismissible"}
+  (Session info: chrome=83.0.4103.61)
+  (Driver info: chromedriver=83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}),platform=Windows NT 10.0.18363 x86_64)
+
+INFO:conftest:Saved screenshot: chrome.png
+INFO:root:I'm looking for '.alert.alert-success.alert-dismissible' with 'css selector'
+INFO:root:I've found '.alert.alert-success.alert-dismissible' with 'css selector'
+INFO:ProductCardPage:Final message after clickThank you for your review. It has been submitted to the webmaster for approval.
+INFO:ProductCardPage:Opening:http://localhost/index.php?route=product/product&path=57&product_id=49
+INFO:ProductCardPage:Finding element:('css selector', '.btn-group [data-original-title="Add to Wish List"]')
+INFO:root:I'm looking for '.btn-group [data-original-title="Add to Wish List"]' with 'css selector'
+INFO:root:I've found '.btn-group [data-original-title="Add to Wish List"]' with 'css selector'
+INFO:root:I'm clicking <selenium.webdriver.remote.webelement.WebElement (session="959e12577999521833325bf38a9af972", element="0.4413015647495149-1")>
+INFO:root:I've clicked <selenium.webdriver.remote.webelement.WebElement (session="959e12577999521833325bf38a9af972", element="0.4413015647495149-1")>
+INFO:ProductCardPage:Finding element exists:('css selector', '.alert.alert-success.alert-dismissible')
+INFO:root:I'm looking for '.alert.alert-success.alert-dismissible' with 'css selector'
+ERROR:conftest:Oooops i got: Message: no such element: Unable to locate element: {"method":"css selector","selector":".alert.alert-success.alert-dismissible"}
+  (Session info: chrome=83.0.4103.61)
+  (Driver info: chromedriver=83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}),platform=Windows NT 10.0.18363 x86_64)
+
+INFO:conftest:Saved screenshot: chrome.png
+INFO:root:I'm looking for '.alert.alert-success.alert-dismissible' with 'css selector'
+INFO:root:I've found '.alert.alert-success.alert-dismissible' with 'css selector'
+INFO:ProductCardPage:Element presented: ('css selector', '.alert.alert-success.alert-dismissible')
+INFO:ProductCardPage:Opening:http://localhost/index.php?route=product/product&path=57&product_id=49
+INFO:ProductCardPage:Finding element:('css selector', '.image-additional > a')
+INFO:root:I'm looking for '.image-additional > a' with 'css selector'
+INFO:root:I've found '.image-additional > a' with 'css selector'
+INFO:root:I'm clicking <selenium.webdriver.remote.webelement.WebElement (session="dbeabe9878679d25a8fa196fc2f8b6fd", element="0.07370107878005161-1")>
+INFO:root:I've clicked <selenium.webdriver.remote.webelement.WebElement (session="dbeabe9878679d25a8fa196fc2f8b6fd", element="0.07370107878005161-1")>
+INFO:ProductCardPage:Finding element:('css selector', '.mfp-img')
+INFO:root:I'm looking for '.mfp-img' with 'css selector'
+INFO:root:I've found '.mfp-img' with 'css selector'
+INFO:root:I'm clicking <selenium.webdriver.remote.webelement.WebElement (session="dbeabe9878679d25a8fa196fc2f8b6fd", element="0.07370107878005161-2")>
+INFO:root:I've clicked <selenium.webdriver.remote.webelement.WebElement (session="dbeabe9878679d25a8fa196fc2f8b6fd", element="0.07370107878005161-2")>
+INFO:ProductCardPage:Finding element:('css selector', '.mfp-img')
+INFO:root:I'm looking for '.mfp-img' with 'css selector'
+INFO:root:I've found '.mfp-img' with 'css selector'
+INFO:root:I'm clicking <selenium.webdriver.remote.webelement.WebElement (session="dbeabe9878679d25a8fa196fc2f8b6fd", element="0.07370107878005161-3")>
+INFO:root:I've clicked <selenium.webdriver.remote.webelement.WebElement (session="dbeabe9878679d25a8fa196fc2f8b6fd", element="0.07370107878005161-3")>
+INFO:ProductCardPage:Finding element:('css selector', '.mfp-img')
+INFO:root:I'm looking for '.mfp-img' with 'css selector'
+INFO:root:I've found '.mfp-img' with 'css selector'
+INFO:root:I'm clicking <selenium.webdriver.remote.webelement.WebElement (session="dbeabe9878679d25a8fa196fc2f8b6fd", element="0.07370107878005161-4")>
+INFO:root:I've clicked <selenium.webdriver.remote.webelement.WebElement (session="dbeabe9878679d25a8fa196fc2f8b6fd", element="0.07370107878005161-4")>
+INFO:ProductCardPage:Finding element:('css selector', '.mfp-img')
+INFO:root:I'm looking for '.mfp-img' with 'css selector'
+INFO:root:I've found '.mfp-img' with 'css selector'
+INFO:root:I'm clicking <selenium.webdriver.remote.webelement.WebElement (session="dbeabe9878679d25a8fa196fc2f8b6fd", element="0.07370107878005161-5")>
+INFO:root:I've clicked <selenium.webdriver.remote.webelement.WebElement (session="dbeabe9878679d25a8fa196fc2f8b6fd", element="0.07370107878005161-5")>
+INFO:ProductCardPage:Finding element:('css selector', '[title="Close (Esc)"]')
+INFO:root:I'm looking for '[title="Close (Esc)"]' with 'css selector'
+INFO:root:I've found '[title="Close (Esc)"]' with 'css selector'
+INFO:root:I'm clicking <selenium.webdriver.remote.webelement.WebElement (session="dbeabe9878679d25a8fa196fc2f8b6fd", element="0.07370107878005161-6")>
+INFO:root:I've clicked <selenium.webdriver.remote.webelement.WebElement (session="dbeabe9878679d25a8fa196fc2f8b6fd", element="0.07370107878005161-6")>
+INFO:ProductCardPage:Finding element exists:('css selector', '.image-additional > a')
+INFO:root:I'm looking for '.image-additional > a' with 'css selector'
+INFO:root:I've found '.image-additional > a' with 'css selector'
+INFO:ProductCardPage:Images clicked and closed
+INFO:ProductCardPage:Opening:http://localhost/index.php?route=product/product&path=57&product_id=49
+INFO:ProductCardPage:Finding element:('css selector', '.breadcrumb li:nth-last-child(2)')
+INFO:root:I'm looking for '.breadcrumb li:nth-last-child(2)' with 'css selector'
+INFO:root:I've found '.breadcrumb li:nth-last-child(2)' with 'css selector'
+INFO:ProductCardPage:Finding element:('css selector', '.breadcrumb li:nth-last-child(2)')
+INFO:root:I'm looking for '.breadcrumb li:nth-last-child(2)' with 'css selector'
+INFO:root:I've found '.breadcrumb li:nth-last-child(2)' with 'css selector'
+INFO:root:I'm clicking <selenium.webdriver.remote.webelement.WebElement (session="10567f93e7b47ac0edd1f22ab8c88c09", element="0.6141381187379806-1")>
+INFO:root:I've clicked <selenium.webdriver.remote.webelement.WebElement (session="10567f93e7b47ac0edd1f22ab8c88c09", element="0.6141381187379806-1")>
+INFO:ProductCardPage:Finding element:('css selector', 'h2')
+INFO:root:I'm looking for 'h2' with 'css selector'
+ERROR:conftest:Oooops i got: Message: no such element: Unable to locate element: {"method":"css selector","selector":"h2"}
+  (Session info: chrome=83.0.4103.61)
+  (Driver info: chromedriver=83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}),platform=Windows NT 10.0.18363 x86_64)
+
+INFO:conftest:Saved screenshot: chrome.png
+INFO:root:I'm looking for 'h2' with 'css selector'
+INFO:root:I've found 'h2' with 'css selector'
+INFO:ProductCardPage:Elements presented: device_type: Tablets device_header:Tablets

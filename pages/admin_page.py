@@ -1,5 +1,6 @@
 from selenium.webdriver.common.by import By
 from .base import BasePage
+import logging
 
 
 class AdminLoginPage(BasePage):
@@ -19,6 +20,7 @@ class AdminLoginPage(BasePage):
     def __init__(self, driver):
         super().__init__(driver)
         self.driver = driver
+        self.logger = logging.getLogger(type(self).__name__)
 
     def _set_username_(self, name):
         self.find(locator=self.UNAME_FIELD).clear()
@@ -33,13 +35,16 @@ class AdminLoginPage(BasePage):
         self._set_password_(PASSW_FIELD)
         self.find(locator=self.SUBMIT_BUTTON).click()
         text = self.find(locator=self.HEADER).text
+        self.logger.info(f"Logged to admin page")
         return text
 
     def go_to_product_page(self):
         self.find(locator=self.CATALOG_MENU).click()
         self.find(locator=self.PRODUCTS_PAGE).click()
         text = self.find(locator=self.HEADER).text
+        self.logger.info(f"Opened product page")
         assert text == "Products"
 
     def add_new_product_page(self):
         self.find(locator=self.ADD_PRODUCT_BUTTON).click()
+        self.logger.info(f"Clicked to: {self.ADD_PRODUCT_BUTTON}")
