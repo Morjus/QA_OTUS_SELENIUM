@@ -1,7 +1,9 @@
 from pages.main_page import MainPage
 import pytest
+import allure
 
 
+@allure.feature("Поиск")
 @pytest.mark.parametrize("product", ["iPhone", "MacBook"])
 def test_search_field(browser, product):
     page = MainPage(browser, url="http://localhost/")
@@ -11,6 +13,7 @@ def test_search_field(browser, product):
         assert product in each.text, f"No {product} in {each.text}"
 
 
+@allure.feature("Корзина")
 def test_basket_button(browser):
     page = MainPage(browser, url="http://localhost/")
     page.open()
@@ -18,6 +21,7 @@ def test_basket_button(browser):
     assert "Shopping Cart" == text, f"Header is wrong, got {text}"
 
 
+@allure.feature("Дропдаун")
 @pytest.mark.parametrize("number", [0, 1])
 def test_my_acc_dropdown(browser, number):
     page = MainPage(browser, url="http://localhost/")
@@ -26,6 +30,7 @@ def test_my_acc_dropdown(browser, number):
     assert text in page.driver.current_url, f"{text} not equal {page.driver.current_url}"
 
 
+@allure.feature("Витрина брендов")
 def test_adv_swiper_bullets(browser):
     page = MainPage(browser, url="http://localhost/")
     page.open()

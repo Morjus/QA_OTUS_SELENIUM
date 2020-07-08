@@ -1,7 +1,8 @@
-import time
+import allure
 from pages.product_card_page import ProductCardPage
 
 
+@allure.feature("Корзина")
 def test_add_to_basket_button(browser):
     page = ProductCardPage(browser, url="http://localhost/index.php?route=product/product&path=57&product_id=49")
     page.open()
@@ -9,6 +10,7 @@ def test_add_to_basket_button(browser):
     assert prod_name == name_in_message == name_in_basket, 'Names differ'
 
 
+@allure.feature("Обзоры продукта")
 def test_review_tab(browser):
     page = ProductCardPage(browser, url="http://localhost/index.php?route=product/product&path=57&product_id=49")
     page.open()
@@ -18,18 +20,21 @@ def test_review_tab(browser):
         f'No success message, got {text}'
 
 
+@allure.feature("Избранное")
 def test_add_to_fav_button(browser):
     page = ProductCardPage(browser, url="http://localhost/index.php?route=product/product&path=57&product_id=49")
     page.open()
     page.add_to_fav_button()
 
 
+@allure.feature("Карточка продукта")
 def test_additional_image(browser):
     page = ProductCardPage(browser, url="http://localhost/index.php?route=product/product&path=57&product_id=49")
     page.open()
     page.open_additional_images()
 
 
+@allure.feature("Поиск")
 def test_go_to_device_types(browser):
     page = ProductCardPage(browser, url="http://localhost/index.php?route=product/product&path=57&product_id=49")
     page.open()
