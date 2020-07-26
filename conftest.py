@@ -34,10 +34,6 @@ class ScreenshotListener(AbstractEventListener):
         driver.save_screenshot(f'{driver.title}.png')
 
 
-# def pytest_addoption(parser):
-#     parser.addoption('--browser', action='store', default="chrome",
-#                      help="Choose browser: chrome, ie11 or firefox")
-
 def pytest_addoption(parser):
     parser.addoption("--browser", action="store", default="chrome",
                      choices=["chrome", "firefox", "opera", "yandex"])

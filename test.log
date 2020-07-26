@@ -825,3 +825,611 @@ INFO:conftest:Saved screenshot: chrome.png
 INFO:root:I'm looking for 'h2' with 'css selector'
 INFO:root:I've found 'h2' with 'css selector'
 INFO:ProductCardPage:Elements presented: device_type: Tablets device_header:Tablets
+INFO:AdminLoginPage:Opening:http://localhost/admin/
+INFO:AdminLoginPage:Finding element:('css selector', '#input-username')
+INFO:AdminLoginPage:Finding element:('css selector', '#input-username')
+INFO:AdminLoginPage:Finding element:('css selector', '#input-password')
+INFO:AdminLoginPage:Finding element:('css selector', '#input-password')
+INFO:AdminLoginPage:Finding element:('css selector', 'button')
+INFO:AdminLoginPage:Finding element:('css selector', 'h1')
+INFO:AdminLoginPage:Logged to admin page
+INFO:AdminLoginPage:Opening:http://localhost/admin/
+INFO:AdminLoginPage:Finding element:('css selector', '#input-username')
+INFO:AdminLoginPage:Finding element:('css selector', '#input-username')
+INFO:AdminLoginPage:Finding element:('css selector', '#input-password')
+INFO:AdminLoginPage:Finding element:('css selector', '#input-password')
+INFO:AdminLoginPage:Finding element:('css selector', 'button')
+INFO:AdminLoginPage:Finding element:('css selector', 'h1')
+INFO:AdminLoginPage:Logged to admin page
+INFO:AdminProductPage:Opening:http://localhost/admin/
+INFO:AdminProductPage:Finding element:('css selector', '#input-username')
+INFO:AdminProductPage:Finding element:('css selector', '#input-username')
+INFO:AdminProductPage:Finding element:('css selector', '#input-password')
+INFO:AdminProductPage:Finding element:('css selector', '#input-password')
+INFO:AdminProductPage:Finding element:('css selector', 'button')
+INFO:AdminProductPage:Finding element:('css selector', 'h1')
+INFO:AdminProductPage:Logged to admin page
+INFO:AdminProductPage:Finding element:('css selector', '#menu-catalog a')
+INFO:AdminProductPage:Finding element:('xpath', '//*[@id="collapse1"]/li[2]/a')
+INFO:AdminProductPage:Opening:http://localhost/admin/
+INFO:AdminProductPage:Finding element:('css selector', '#input-username')
+INFO:AdminProductPage:Finding element:('css selector', '#input-username')
+INFO:AdminProductPage:Finding element:('css selector', '#input-password')
+INFO:AdminProductPage:Finding element:('css selector', '#input-password')
+INFO:AdminProductPage:Finding element:('css selector', 'button')
+INFO:AdminProductPage:Finding element:('css selector', 'h1')
+INFO:AdminProductPage:Logged to admin page
+INFO:AdminProductPage:Finding element:('css selector', '#menu-catalog a')
+INFO:AdminProductPage:Finding element:('xpath', '//*[@id="collapse1"]/li[2]/a')
+INFO:AdminProductPage:Finding element:('css selector', 'h1')
+INFO:AdminProductPage:Opened product page
+INFO:AdminProductPage:Finding elements:('css selector', '[data-original-title="Edit"]')
+INFO:AdminProductPage:Opening:http://localhost/admin/
+INFO:AdminProductPage:Finding element:('css selector', '#input-username')
+INFO:AdminProductPage:Finding element:('css selector', '#input-username')
+INFO:AdminProductPage:Finding element:('css selector', '#input-password')
+INFO:AdminProductPage:Finding element:('css selector', '#input-password')
+INFO:AdminProductPage:Finding element:('css selector', 'button')
+INFO:AdminProductPage:Finding element:('css selector', 'h1')
+INFO:AdminProductPage:Logged to admin page
+INFO:AdminProductPage:Finding element:('css selector', '#menu-catalog a')
+INFO:AdminProductPage:Finding element:('xpath', '//*[@id="collapse1"]/li[2]/a')
+INFO:BasePage:Opening:https://developer.mozilla.org/ru/docs/Web/HTML/Element/Input/file
+INFO:AdminProductPage:Opening:http://localhost/admin/
+INFO:AdminProductPage:Finding element:('css selector', '#input-username')
+INFO:AdminProductPage:Finding element:('css selector', '#input-username')
+INFO:AdminProductPage:Finding element:('css selector', '#input-password')
+INFO:AdminProductPage:Finding element:('css selector', '#input-password')
+INFO:AdminProductPage:Finding element:('css selector', 'button')
+INFO:AdminProductPage:Finding element:('css selector', 'h1')
+INFO:AdminProductPage:Logged to admin page
+INFO:AdminProductPage:Finding element:('css selector', '#menu-catalog a')
+INFO:AdminProductPage:Finding element:('xpath', '//*[@id="collapse1"]/li[2]/a')
+INFO:AdminProductPage:Finding element:('css selector', 'h1')
+INFO:AdminProductPage:Opened product page
+INFO:AdminProductPage:Finding elements:('css selector', '[data-original-title="Edit"]')
+INFO:AdminProductPage:Finding element:('css selector', '[href="#tab-image"]')
+INFO:AdminProductPage:Finding element:('css selector', '#thumb-image')
+INFO:AdminProductPage:Finding element:('css selector', '#button-image')
+INFO:AdminLoginPage:Opening:http://localhost/admin/
+INFO:AdminLoginPage:Finding element:('css selector', '#input-username')
+INFO:AdminLoginPage:Finding element:('css selector', '#input-username')
+INFO:AdminLoginPage:Finding element:('css selector', '#input-password')
+INFO:AdminLoginPage:Finding element:('css selector', '#input-password')
+INFO:AdminLoginPage:Finding element:('css selector', 'button')
+INFO:AdminLoginPage:Finding element:('css selector', 'h1')
+INFO:AdminLoginPage:Logged to admin page
+INFO:AdminProductPage:Opening:http://localhost/admin/
+INFO:AdminProductPage:Finding element:('css selector', '#input-username')
+INFO:AdminProductPage:Finding element:('css selector', '#input-username')
+INFO:AdminProductPage:Finding element:('css selector', '#input-password')
+INFO:AdminProductPage:Finding element:('css selector', '#input-password')
+INFO:AdminProductPage:Finding element:('css selector', 'button')
+INFO:AdminProductPage:Finding element:('css selector', 'h1')
+INFO:AdminProductPage:Logged to admin page
+INFO:AdminProductPage:Finding element:('css selector', '#menu-catalog a')
+INFO:AdminProductPage:Finding element:('xpath', '//*[@id="collapse1"]/li[2]/a')
+INFO:AdminProductPage:Finding element:('css selector', 'h1')
+INFO:AdminProductPage:Opened product page
+INFO:AdminProductPage:Finding element:('css selector', '.fa.fa-plus')
+INFO:AdminProductPage:Clicked to: ('css selector', '.fa.fa-plus')
+INFO:AdminProductPage:Finding element:('css selector', '#input-name1')
+INFO:AdminProductPage:Script work well
+INFO:AdminProductPage:Finding element:('css selector', '#input-meta-title1')
+INFO:AdminProductPage:Finding element:('css selector', '[href="#tab-data"]')
+INFO:AdminProductPage:Finding element:('css selector', '#input-model')
+INFO:AdminProductPage:Finding element:('css selector', '#input-price')
+INFO:AdminProductPage:Finding element:('css selector', '#input-tax-class')
+INFO:AdminProductPage:Finding element:('css selector', '#input-quantity')
+INFO:AdminProductPage:Finding element:('css selector', '#input-stock-status')
+INFO:AdminProductPage:Finding element:('css selector', '#input-length')
+INFO:AdminProductPage:Finding element:('css selector', '#input-width')
+INFO:AdminProductPage:Finding element:('css selector', '#input-height')
+INFO:AdminProductPage:Finding element:('css selector', '#input-weight')
+INFO:AdminProductPage:Finding element:('css selector', '#input-sort-order')
+INFO:AdminProductPage:Finding element:('css selector', '#input-sort-order')
+INFO:AdminProductPage:Finding element:('css selector', '.fa.fa-save')
+INFO:AdminProductPage:Finding element:('css selector', '.alert.alert-success.alert-dismissible')
+INFO:tests.test_admin_product_page:====== Started browser logs ======
+INFO:tests.test_admin_product_page:{'level': 'SEVERE', 'message': 'http://localhost/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)', 'source': 'network', 'timestamp': 1593596350464}
+INFO:tests.test_admin_product_page:{'level': 'SEVERE', 'message': 'https://localhost/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)', 'source': 'network', 'timestamp': 1593596352230}
+INFO:tests.test_admin_product_page:====== Finished browser logs ======
+INFO:AdminProductPage:Opening:http://localhost/admin/
+INFO:AdminProductPage:Finding element:('css selector', '#input-username')
+INFO:AdminProductPage:Finding element:('css selector', '#input-username')
+INFO:AdminProductPage:Finding element:('css selector', '#input-password')
+INFO:AdminProductPage:Finding element:('css selector', '#input-password')
+INFO:AdminProductPage:Finding element:('css selector', 'button')
+INFO:AdminProductPage:Finding element:('css selector', 'h1')
+INFO:AdminProductPage:Logged to admin page
+INFO:AdminProductPage:Finding element:('css selector', '#menu-catalog a')
+INFO:AdminProductPage:Finding element:('xpath', '//*[@id="collapse1"]/li[2]/a')
+INFO:AdminProductPage:Finding element:('css selector', 'h1')
+INFO:AdminProductPage:Opened product page
+INFO:AdminProductPage:Finding elements:('css selector', '[data-original-title="Edit"]')
+INFO:AdminProductPage:Random button clicked: <selenium.webdriver.remote.webelement.WebElement (session="8c03d1975102be5d6508f6b063931f7e", element="7b98e5d0-30ff-4b81-8819-c9d3f2769dab")>
+INFO:AdminProductPage:Finding element:('css selector', '.panel-title')
+INFO:AdminProductPage:Opening:http://localhost/admin/
+INFO:AdminProductPage:Finding element:('css selector', '#input-username')
+INFO:AdminProductPage:Finding element:('css selector', '#input-username')
+INFO:AdminProductPage:Finding element:('css selector', '#input-password')
+INFO:AdminProductPage:Finding element:('css selector', '#input-password')
+INFO:AdminProductPage:Finding element:('css selector', 'button')
+INFO:AdminProductPage:Finding element:('css selector', 'h1')
+INFO:AdminProductPage:Logged to admin page
+INFO:AdminProductPage:Finding element:('css selector', '#menu-catalog a')
+INFO:AdminProductPage:Finding element:('xpath', '//*[@id="collapse1"]/li[2]/a')
+INFO:AdminProductPage:Finding element:('css selector', 'h1')
+INFO:AdminProductPage:Opened product page
+INFO:AdminProductPage:Finding elements:('css selector', '[type="checkbox"]')
+INFO:AdminProductPage:Finding element:('css selector', '.fa.fa-trash-o')
+INFO:AdminProductPage:Alert accepted.
+INFO:AdminProductPage:Finding element:('css selector', '.alert.alert-success.alert-dismissible')
+INFO:tests.test_admin_product_page:====== Started browser logs ======
+INFO:CataloguePage:Opening:http://localhost//index.php?route=product/category&path=20
+INFO:CataloguePage:Finding element:('css selector', '[id="list-view"].btn.btn-default > *')
+INFO:CataloguePage:Change list view
+INFO:CataloguePage:Finding element exists:('css selector', '[id="list-view"].btn.btn-default.active')
+INFO:CataloguePage:Opening:http://localhost//index.php?route=product/category&path=20
+INFO:CataloguePage:Finding elements:('css selector', '.list-group > *')
+INFO:CataloguePage:Finding element:('css selector', 'h2')
+INFO:CataloguePage:Desktops and Desktops (7) is on page
+INFO:CataloguePage:Opening:http://localhost//index.php?route=product/category&path=20
+INFO:CataloguePage:Finding elements:('css selector', '.list-group > *')
+INFO:CataloguePage:Finding element:('css selector', 'h2')
+INFO:CataloguePage:PC and    - PC (0) is on page
+INFO:CataloguePage:Opening:http://localhost//index.php?route=product/category&path=20
+INFO:CataloguePage:Finding elements:('css selector', '.list-group > *')
+INFO:CataloguePage:Finding element:('css selector', 'h2')
+INFO:CataloguePage:Mac and    - Mac (1) is on page
+INFO:CataloguePage:Opening:http://localhost//index.php?route=product/category&path=20
+INFO:CataloguePage:Finding elements:('css selector', '.list-group > *')
+INFO:CataloguePage:Finding element:('css selector', 'h2')
+INFO:CataloguePage:Laptops & Notebooks and Laptops & Notebooks (3) is on page
+INFO:CataloguePage:Opening:http://localhost//index.php?route=product/category&path=20
+INFO:CataloguePage:Finding elements:('css selector', '.list-group > *')
+INFO:CataloguePage:Finding element:('css selector', 'h2')
+INFO:CataloguePage:Components and Components (1) is on page
+INFO:CataloguePage:Opening:http://localhost//index.php?route=product/category&path=20
+INFO:CataloguePage:Finding elements:('css selector', '.list-group > *')
+INFO:CataloguePage:Finding element:('css selector', 'h2')
+INFO:CataloguePage:Tablets and Tablets (1) is on page
+INFO:CataloguePage:Opening:http://localhost//index.php?route=product/category&path=20
+INFO:CataloguePage:Finding elements:('css selector', '.list-group > *')
+INFO:CataloguePage:Finding element:('css selector', 'h2')
+INFO:CataloguePage:Software and Software (0) is on page
+INFO:CataloguePage:Opening:http://localhost//index.php?route=product/category&path=20
+INFO:CataloguePage:Finding elements:('css selector', '.list-group > *')
+INFO:CataloguePage:Finding element:('css selector', 'h2')
+INFO:CataloguePage:Phones & PDAs and Phones & PDAs (1) is on page
+INFO:CataloguePage:Opening:http://localhost//index.php?route=product/category&path=20
+INFO:CataloguePage:Finding elements:('css selector', '.list-group > *')
+INFO:CataloguePage:Finding element:('css selector', 'h2')
+INFO:CataloguePage:Cameras and Cameras (2) is on page
+INFO:CataloguePage:Opening:http://localhost//index.php?route=product/category&path=20
+INFO:CataloguePage:Finding elements:('css selector', '.list-group > *')
+INFO:CataloguePage:Finding element:('css selector', 'h2')
+INFO:CataloguePage:MP3 Players and MP3 Players (4) is on page
+INFO:CataloguePage:Opening:http://localhost//index.php?route=product/category&path=20
+INFO:CataloguePage:Finding element:('xpath', '// *[ @ id = "content"] / div[4] / div[1] / div / div[2] / div[1] / h4 / a')
+INFO:CataloguePage:Finding element:('xpath', '// *[ @ id = "content"] / div[4] / div[1] / div / div[2] / div[1] / h4 / a')
+INFO:CataloguePage:Finding element:('css selector', '.btn-group + h1')
+INFO:CataloguePage:Canon EOS 5D and Canon EOS 5D found
+INFO:CataloguePage:Opening:http://localhost//index.php?route=product/category&path=20
+INFO:CataloguePage:Finding element:('xpath', '// *[ @ id = "content"] / div[4] / div[2] / div / div[2] / div[1] / h4 / a')
+INFO:CataloguePage:Finding element:('xpath', '// *[ @ id = "content"] / div[4] / div[2] / div / div[2] / div[1] / h4 / a')
+INFO:CataloguePage:Finding element:('css selector', '.btn-group + h1')
+INFO:CataloguePage:HP LP3065 and HP LP3065 found
+INFO:CataloguePage:Opening:http://localhost//index.php?route=product/category&path=20
+INFO:CataloguePage:Finding element:('xpath', '// *[ @ id = "content"] / div[4] / div[3] / div / div[2] / div[1] / h4 / a')
+INFO:CataloguePage:Finding element:('xpath', '// *[ @ id = "content"] / div[4] / div[3] / div / div[2] / div[1] / h4 / a')
+INFO:CataloguePage:Finding element:('css selector', '.btn-group + h1')
+INFO:CataloguePage:HTC Touch HD and HTC Touch HD found
+INFO:CataloguePage:Opening:http://localhost//index.php?route=product/category&path=20
+INFO:CataloguePage:Finding element:('xpath', '// *[ @ id = "content"] / div[4] / div[4] / div / div[2] / div[1] / h4 / a')
+INFO:CataloguePage:Finding element:('xpath', '// *[ @ id = "content"] / div[4] / div[4] / div / div[2] / div[1] / h4 / a')
+INFO:CataloguePage:Finding element:('css selector', '.btn-group + h1')
+INFO:CataloguePage:iPod Classic and iPod Classic found
+INFO:CataloguePage:Opening:http://localhost//index.php?route=product/category&path=20
+INFO:CataloguePage:Finding element:('xpath', '// *[ @ id = "content"] / div[4] / div[5] / div / div[2] / div[1] / h4 / a')
+INFO:CataloguePage:Finding element:('xpath', '// *[ @ id = "content"] / div[4] / div[5] / div / div[2] / div[1] / h4 / a')
+INFO:CataloguePage:Finding element:('css selector', '.btn-group + h1')
+INFO:CataloguePage:MacBook Air and MacBook Air found
+INFO:CataloguePage:Opening:http://localhost//index.php?route=product/category&path=20
+INFO:CataloguePage:Finding element:('xpath', '// *[ @ id = "content"] / div[4] / div[6] / div / div[2] / div[1] / h4 / a')
+INFO:CataloguePage:Finding element:('xpath', '// *[ @ id = "content"] / div[4] / div[6] / div / div[2] / div[1] / h4 / a')
+INFO:CataloguePage:Finding element:('css selector', '.btn-group + h1')
+INFO:CataloguePage:Samsung SyncMaster 941BW and Samsung SyncMaster 941BW found
+INFO:CataloguePage:Opening:http://localhost//index.php?route=product/category&path=20
+INFO:CataloguePage:Finding element:('xpath', '// *[ @ id = "content"] / div[4] / div[7] / div / div[2] / div[1] / h4 / a')
+INFO:CataloguePage:Opening:http://localhost//index.php?route=product/category&path=20
+INFO:CataloguePage:Finding element:('xpath', '// *[ @ id = "content"] / div[4] / div[8] / div / div[2] / div[1] / h4 / a')
+INFO:CataloguePage:Opening:http://localhost//index.php?route=product/category&path=20
+INFO:CataloguePage:Finding element:('css selector', '#input-limit')
+INFO:CataloguePage:Finding element:('css selector', '#input-limit option[selected="selected"]')
+INFO:CataloguePage:15 and 15 found
+INFO:CataloguePage:Opening:http://localhost//index.php?route=product/category&path=20
+INFO:CataloguePage:Finding element:('css selector', '#input-limit')
+INFO:CataloguePage:Finding element:('css selector', '#input-limit option[selected="selected"]')
+INFO:CataloguePage:25 and 25 found
+INFO:CataloguePage:Opening:http://localhost//index.php?route=product/category&path=20
+INFO:CataloguePage:Finding element:('css selector', '#input-limit')
+INFO:CataloguePage:Finding element:('css selector', '#input-limit option[selected="selected"]')
+INFO:CataloguePage:50 and 50 found
+INFO:CataloguePage:Opening:http://localhost//index.php?route=product/category&path=20
+INFO:CataloguePage:Finding element:('css selector', '#input-limit')
+INFO:CataloguePage:Finding element:('css selector', '#input-limit option[selected="selected"]')
+INFO:CataloguePage:75 and 75 found
+INFO:CataloguePage:Opening:http://localhost//index.php?route=product/category&path=20
+INFO:CataloguePage:Finding element:('css selector', '#input-limit')
+INFO:CataloguePage:Finding element:('css selector', '#input-limit option[selected="selected"]')
+INFO:CataloguePage:100 and 100 found
+INFO:CustomerLoginPage:Opening:http://localhost/index.php?route=account/login
+INFO:CustomerLoginPage:Finding element:('css selector', '.well > a')
+INFO:CustomerLoginPage:Finding element:('css selector', '.col-sm-9 h1')
+INFO:CustomerLoginPage:Registration page opened
+INFO:CustomerLoginPage:Finding element:('css selector', '#input-firstname')
+INFO:CustomerLoginPage:Finding element:('css selector', '#input-lastname')
+INFO:CustomerLoginPage:Finding element:('css selector', '#input-email')
+INFO:CustomerLoginPage:Finding element:('css selector', '#input-telephone')
+INFO:CustomerLoginPage:Finding element:('css selector', '#input-password')
+INFO:CustomerLoginPage:Finding element:('css selector', '#input-confirm')
+INFO:CustomerLoginPage:Finding element:('css selector', '[name="agree"]')
+INFO:CustomerLoginPage:Finding element:('css selector', '.btn.btn-primary')
+INFO:CustomerLoginPage:Finding element:('css selector', '.col-sm-9 h1')
+INFO:CustomerLoginPage:Finding element exists:('xpath', '//*[@id="content"]/div/div/a')
+INFO:CustomerLoginPage:Opening:http://localhost/index.php?route=account/login
+INFO:CustomerLoginPage:Finding element:('css selector', '.form-group > a')
+INFO:CustomerLoginPage:Finding element:('css selector', '.col-sm-9 h1')
+INFO:CustomerLoginPage:Finding element:('css selector', '#input-email')
+INFO:CustomerLoginPage:Finding element:('css selector', '.btn.btn-primary')
+INFO:CustomerLoginPage:Finding element:('css selector', '.alert')
+INFO:CustomerLoginPage:Finding element:('css selector', '.alert')
+INFO:CustomerLoginPage:Password resend
+INFO:CustomerLoginPage:Opening:http://localhost/index.php?route=account/login
+INFO:CustomerLoginPage:Finding element:('css selector', '#input-email')
+INFO:CustomerLoginPage:Finding element:('css selector', '#input-password')
+INFO:CustomerLoginPage:Finding element:('css selector', '.form-group + .btn.btn-primary')
+INFO:CustomerLoginPage:Finding element:('css selector', '.col-sm-9 h2')
+INFO:CustomerLoginPage:Header:My Account found
+INFO:CustomerLoginPage:Opening:http://localhost/index.php?route=account/login
+INFO:CustomerLoginPage:Finding element:('css selector', '.breadcrumb li a')
+INFO:CustomerLoginPage:Finding element:('css selector', 'h3')
+INFO:CustomerLoginPage:Main page header:Featured
+INFO:MainPage:Opening:http://localhost/
+INFO:MainPage:Finding element:('css selector', '[name="search"]')
+INFO:MainPage:iPhone sended to ('css selector', '[name="search"]')
+INFO:MainPage:Finding element:('css selector', '.btn.btn-default.btn-lg')
+INFO:MainPage:Finding element:('css selector', '.col-sm-12 h1')
+INFO:MainPage:Finding elements:('css selector', 'h4')
+INFO:MainPage:Opening:http://localhost/
+INFO:MainPage:Finding element:('css selector', '[name="search"]')
+INFO:MainPage:MacBook sended to ('css selector', '[name="search"]')
+INFO:MainPage:Finding element:('css selector', '.btn.btn-default.btn-lg')
+INFO:MainPage:Finding element:('css selector', '.col-sm-12 h1')
+INFO:MainPage:Finding elements:('css selector', 'h4')
+INFO:MainPage:Opening:http://localhost/
+INFO:MainPage:Finding element:('css selector', '.fa.fa-shopping-cart')
+INFO:MainPage:Basket page opened
+INFO:MainPage:Finding element:('css selector', '.col-sm-12 h1')
+INFO:MainPage:Opening:http://localhost/
+INFO:MainPage:Finding elements:('css selector', '.dropdown-menu.dropdown-menu-right li a')
+INFO:MainPage:Finding element:('css selector', '[title="My Account"]')
+INFO:MainPage:Button: <selenium.webdriver.remote.webelement.WebElement (session="2509207ecd3ae44688fb03302a9ae182", element="87a0a789-307d-492a-94b5-7556ec254161")> clicked
+INFO:MainPage:Opening:http://localhost/
+INFO:MainPage:Finding elements:('css selector', '.dropdown-menu.dropdown-menu-right li a')
+INFO:MainPage:Finding element:('css selector', '[title="My Account"]')
+INFO:MainPage:Button: <selenium.webdriver.remote.webelement.WebElement (session="2655d08b54263dde1fa3b419e6785dba", element="ae66e76c-357c-4736-ac13-63ffa51d8dc8")> clicked
+INFO:MainPage:Opening:http://localhost/
+INFO:MainPage:Finding elements:('css selector', '.swiper-pagination.carousel0.swiper-pagination-clickable.swiper-pagination-bullets > * ')
+INFO:MainPage:Button: <selenium.webdriver.remote.webelement.WebElement (session="8de3699f00fc5cc6b3df65da9f9421f3", element="666ed9f6-11a0-452e-a343-73fe38a0b5fa")> clicked
+INFO:ProductCardPage:Opening:http://localhost/index.php?route=product/product&path=57&product_id=49
+INFO:ProductCardPage:Finding element:('css selector', '.btn-group+h1')
+INFO:ProductCardPage:Finding element:('css selector', '#button-cart')
+INFO:ProductCardPage:Finding element:('css selector', '.alert.alert-success.alert-dismissible a')
+INFO:ProductCardPage:Finding element:('css selector', '#cart button #cart-total')
+INFO:ProductCardPage:Finding element:('css selector', '.text-left a')
+INFO:ProductCardPage:Found prod_name:Samsung Galaxy Tab 10.1 name_in_message:Samsung Galaxy Tab 10.1 name_in_basket:Samsung Galaxy Tab 10.1
+INFO:ProductCardPage:Opening:http://localhost/index.php?route=product/product&path=57&product_id=49
+INFO:ProductCardPage:Finding element:('css selector', '.nav.nav-tabs :nth-child(2) > a')
+INFO:ProductCardPage:Finding element:('css selector', '#review + h2')
+INFO:ProductCardPage:Review tab opened
+INFO:ProductCardPage:Finding element:('css selector', '#input-name')
+INFO:ProductCardPage:Finding element:('css selector', '#input-review')
+INFO:ProductCardPage:Finding element:('css selector', '[type="radio"][value="5"]')
+INFO:ProductCardPage:Finding element:('css selector', '#button-review')
+INFO:ProductCardPage:Finding element:('css selector', '.alert.alert-success.alert-dismissible')
+INFO:ProductCardPage:Final message after clickThank you for your review. It has been submitted to the webmaster for approval.
+INFO:ProductCardPage:Opening:http://localhost/index.php?route=product/product&path=57&product_id=49
+INFO:ProductCardPage:Finding element:('css selector', '.btn-group [data-original-title="Add to Wish List"]')
+INFO:ProductCardPage:Finding element exists:('css selector', '.alert.alert-success.alert-dismissible')
+INFO:ProductCardPage:Element presented: ('css selector', '.alert.alert-success.alert-dismissible')
+INFO:ProductCardPage:Opening:http://localhost/index.php?route=product/product&path=57&product_id=49
+INFO:ProductCardPage:Finding element:('css selector', '.image-additional > a')
+INFO:ProductCardPage:Finding element:('css selector', '.mfp-img')
+INFO:ProductCardPage:Finding element:('css selector', '.mfp-img')
+INFO:ProductCardPage:Finding element:('css selector', '.mfp-img')
+INFO:ProductCardPage:Finding element:('css selector', '.mfp-img')
+INFO:ProductCardPage:Finding element:('css selector', '[title="Close (Esc)"]')
+INFO:ProductCardPage:Finding element exists:('css selector', '.image-additional > a')
+INFO:ProductCardPage:Images clicked and closed
+INFO:ProductCardPage:Opening:http://localhost/index.php?route=product/product&path=57&product_id=49
+INFO:ProductCardPage:Finding element:('css selector', '.breadcrumb li:nth-last-child(2)')
+INFO:ProductCardPage:Finding element:('css selector', '.breadcrumb li:nth-last-child(2)')
+INFO:ProductCardPage:Finding element:('css selector', 'h2')
+INFO:ProductCardPage:Elements presented: device_type: Tablets device_header:Tablets
+INFO:BasePage:Opening:https://developer.mozilla.org/ru/docs/Web/HTML/Element/Input/file
+INFO:AdminProductPage:Opening:http://localhost/admin/
+INFO:AdminProductPage:Finding element:('css selector', '#input-username')
+INFO:AdminProductPage:Finding element:('css selector', '#input-username')
+INFO:AdminProductPage:Finding element:('css selector', '#input-password')
+INFO:AdminProductPage:Finding element:('css selector', '#input-password')
+INFO:AdminProductPage:Finding element:('css selector', 'button')
+INFO:AdminProductPage:Finding element:('css selector', 'h1')
+INFO:AdminProductPage:Logged to admin page
+INFO:AdminProductPage:Finding element:('css selector', '#menu-catalog a')
+INFO:AdminProductPage:Finding element:('xpath', '//*[@id="collapse1"]/li[2]/a')
+INFO:AdminProductPage:Finding element:('css selector', 'h1')
+INFO:AdminProductPage:Opened product page
+INFO:AdminProductPage:Finding elements:('css selector', '[data-original-title="Edit"]')
+INFO:AdminProductPage:Finding element:('css selector', '[href="#tab-image"]')
+INFO:AdminProductPage:Finding element:('css selector', '#thumb-image')
+INFO:AdminProductPage:Finding element:('css selector', '#button-image')
+INFO:AdminLoginPage:Opening:http://localhost/admin/
+INFO:AdminLoginPage:Finding element:('css selector', '#input-username')
+INFO:AdminLoginPage:Finding element:('css selector', '#input-username')
+INFO:AdminLoginPage:Finding element:('css selector', '#input-password')
+INFO:AdminLoginPage:Finding element:('css selector', '#input-password')
+INFO:AdminLoginPage:Finding element:('css selector', 'button')
+INFO:AdminLoginPage:Finding element:('css selector', 'h1')
+INFO:AdminLoginPage:Logged to admin page
+INFO:AdminProductPage:Opening:http://localhost/admin/
+INFO:AdminProductPage:Finding element:('css selector', '#input-username')
+INFO:AdminProductPage:Finding element:('css selector', '#input-username')
+INFO:AdminProductPage:Finding element:('css selector', '#input-password')
+INFO:AdminProductPage:Finding element:('css selector', '#input-password')
+INFO:AdminProductPage:Finding element:('css selector', 'button')
+INFO:AdminProductPage:Finding element:('css selector', 'h1')
+INFO:AdminProductPage:Logged to admin page
+INFO:AdminProductPage:Finding element:('css selector', '#menu-catalog a')
+INFO:AdminProductPage:Finding element:('xpath', '//*[@id="collapse1"]/li[2]/a')
+INFO:AdminProductPage:Finding element:('css selector', 'h1')
+INFO:AdminProductPage:Opened product page
+INFO:AdminProductPage:Finding element:('css selector', '.fa.fa-plus')
+INFO:AdminProductPage:Clicked to: ('css selector', '.fa.fa-plus')
+INFO:AdminProductPage:Finding element:('css selector', '#input-name1')
+INFO:AdminProductPage:Script work well
+INFO:AdminProductPage:Finding element:('css selector', '#input-meta-title1')
+INFO:AdminProductPage:Finding element:('css selector', '[href="#tab-data"]')
+INFO:AdminProductPage:Finding element:('css selector', '#input-model')
+INFO:AdminProductPage:Finding element:('css selector', '#input-price')
+INFO:AdminProductPage:Finding element:('css selector', '#input-tax-class')
+INFO:AdminProductPage:Finding element:('css selector', '#input-quantity')
+INFO:AdminProductPage:Finding element:('css selector', '#input-stock-status')
+INFO:AdminProductPage:Finding element:('css selector', '#input-length')
+INFO:AdminProductPage:Finding element:('css selector', '#input-width')
+INFO:AdminProductPage:Finding element:('css selector', '#input-height')
+INFO:AdminProductPage:Finding element:('css selector', '#input-weight')
+INFO:AdminProductPage:Finding element:('css selector', '#input-sort-order')
+INFO:AdminProductPage:Finding element:('css selector', '#input-sort-order')
+INFO:AdminProductPage:Finding element:('css selector', '.fa.fa-save')
+INFO:AdminProductPage:Finding element:('css selector', '.alert.alert-success.alert-dismissible')
+INFO:tests.test_admin_product_page:====== Started browser logs ======
+INFO:tests.test_admin_product_page:====== Finished browser logs ======
+INFO:AdminProductPage:Opening:http://localhost/admin/
+INFO:AdminProductPage:Finding element:('css selector', '#input-username')
+INFO:AdminProductPage:Finding element:('css selector', '#input-username')
+INFO:AdminProductPage:Finding element:('css selector', '#input-password')
+INFO:AdminProductPage:Finding element:('css selector', '#input-password')
+INFO:AdminProductPage:Finding element:('css selector', 'button')
+INFO:AdminProductPage:Finding element:('css selector', 'h1')
+INFO:AdminProductPage:Logged to admin page
+INFO:AdminProductPage:Finding element:('css selector', '#menu-catalog a')
+INFO:AdminProductPage:Finding element:('xpath', '//*[@id="collapse1"]/li[2]/a')
+INFO:AdminProductPage:Opening:http://localhost/admin/
+INFO:AdminProductPage:Finding element:('css selector', '#input-username')
+INFO:AdminProductPage:Finding element:('css selector', '#input-username')
+INFO:AdminProductPage:Finding element:('css selector', '#input-password')
+INFO:AdminProductPage:Finding element:('css selector', '#input-password')
+INFO:AdminProductPage:Finding element:('css selector', 'button')
+INFO:AdminProductPage:Finding element:('css selector', 'h1')
+INFO:AdminProductPage:Logged to admin page
+INFO:AdminProductPage:Finding element:('css selector', '#menu-catalog a')
+INFO:AdminProductPage:Finding element:('xpath', '//*[@id="collapse1"]/li[2]/a')
+INFO:AdminProductPage:Finding element:('css selector', 'h1')
+INFO:AdminProductPage:Opened product page
+INFO:AdminProductPage:Finding elements:('css selector', '[type="checkbox"]')
+INFO:AdminProductPage:Finding element:('css selector', '.fa.fa-trash-o')
+INFO:AdminProductPage:Alert accepted.
+INFO:AdminProductPage:Finding element:('css selector', '.alert.alert-success.alert-dismissible')
+INFO:tests.test_admin_product_page:====== Started browser logs ======
+INFO:CataloguePage:Opening:http://localhost//index.php?route=product/category&path=20
+INFO:CataloguePage:Finding element:('css selector', '[id="list-view"].btn.btn-default > *')
+INFO:CataloguePage:Change list view
+INFO:CataloguePage:Finding element exists:('css selector', '[id="list-view"].btn.btn-default.active')
+INFO:CataloguePage:Opening:http://localhost//index.php?route=product/category&path=20
+INFO:CataloguePage:Finding elements:('css selector', '.list-group > *')
+INFO:CataloguePage:Finding element:('css selector', 'h2')
+INFO:CataloguePage:Desktops and Desktops (7) is on page
+INFO:CataloguePage:Opening:http://localhost//index.php?route=product/category&path=20
+INFO:CataloguePage:Finding elements:('css selector', '.list-group > *')
+INFO:CataloguePage:Finding element:('css selector', 'h2')
+INFO:CataloguePage:PC and    - PC (0) is on page
+INFO:CataloguePage:Opening:http://localhost//index.php?route=product/category&path=20
+INFO:CataloguePage:Finding elements:('css selector', '.list-group > *')
+INFO:CataloguePage:Finding element:('css selector', 'h2')
+INFO:CataloguePage:Mac and    - Mac (1) is on page
+INFO:CataloguePage:Opening:http://localhost//index.php?route=product/category&path=20
+INFO:CataloguePage:Finding elements:('css selector', '.list-group > *')
+INFO:CataloguePage:Finding element:('css selector', 'h2')
+INFO:CataloguePage:Laptops & Notebooks and Laptops & Notebooks (3) is on page
+INFO:CataloguePage:Opening:http://localhost//index.php?route=product/category&path=20
+INFO:CataloguePage:Finding elements:('css selector', '.list-group > *')
+INFO:CataloguePage:Finding element:('css selector', 'h2')
+INFO:CataloguePage:Components and Components (1) is on page
+INFO:CataloguePage:Opening:http://localhost//index.php?route=product/category&path=20
+INFO:CataloguePage:Finding elements:('css selector', '.list-group > *')
+INFO:CataloguePage:Finding element:('css selector', 'h2')
+INFO:CataloguePage:Tablets and Tablets (1) is on page
+INFO:CataloguePage:Opening:http://localhost//index.php?route=product/category&path=20
+INFO:CataloguePage:Finding elements:('css selector', '.list-group > *')
+INFO:CataloguePage:Finding element:('css selector', 'h2')
+INFO:CataloguePage:Software and Software (0) is on page
+INFO:CataloguePage:Opening:http://localhost//index.php?route=product/category&path=20
+INFO:CataloguePage:Finding elements:('css selector', '.list-group > *')
+INFO:CataloguePage:Finding element:('css selector', 'h2')
+INFO:CataloguePage:Phones & PDAs and Phones & PDAs (1) is on page
+INFO:CataloguePage:Opening:http://localhost//index.php?route=product/category&path=20
+INFO:CataloguePage:Finding elements:('css selector', '.list-group > *')
+INFO:CataloguePage:Finding element:('css selector', 'h2')
+INFO:CataloguePage:Cameras and Cameras (2) is on page
+INFO:CataloguePage:Opening:http://localhost//index.php?route=product/category&path=20
+INFO:CataloguePage:Finding elements:('css selector', '.list-group > *')
+INFO:CataloguePage:Finding element:('css selector', 'h2')
+INFO:CataloguePage:MP3 Players and MP3 Players (3) is on page
+INFO:CataloguePage:Opening:http://localhost//index.php?route=product/category&path=20
+INFO:CataloguePage:Finding element:('xpath', '// *[ @ id = "content"] / div[4] / div[1] / div / div[2] / div[1] / h4 / a')
+INFO:CataloguePage:Finding element:('xpath', '// *[ @ id = "content"] / div[4] / div[1] / div / div[2] / div[1] / h4 / a')
+INFO:CataloguePage:Opening:http://localhost//index.php?route=product/category&path=20
+INFO:CataloguePage:Finding element:('xpath', '// *[ @ id = "content"] / div[4] / div[2] / div / div[2] / div[1] / h4 / a')
+INFO:CataloguePage:Finding element:('xpath', '// *[ @ id = "content"] / div[4] / div[2] / div / div[2] / div[1] / h4 / a')
+INFO:CataloguePage:Opening:http://localhost//index.php?route=product/category&path=20
+INFO:CataloguePage:Finding element:('xpath', '// *[ @ id = "content"] / div[4] / div[3] / div / div[2] / div[1] / h4 / a')
+INFO:CataloguePage:Finding element:('xpath', '// *[ @ id = "content"] / div[4] / div[3] / div / div[2] / div[1] / h4 / a')
+INFO:CataloguePage:Opening:http://localhost//index.php?route=product/category&path=20
+INFO:CataloguePage:Finding element:('xpath', '// *[ @ id = "content"] / div[4] / div[4] / div / div[2] / div[1] / h4 / a')
+INFO:CataloguePage:Finding element:('xpath', '// *[ @ id = "content"] / div[4] / div[4] / div / div[2] / div[1] / h4 / a')
+INFO:CataloguePage:Opening:http://localhost//index.php?route=product/category&path=20
+INFO:CataloguePage:Finding element:('xpath', '// *[ @ id = "content"] / div[4] / div[5] / div / div[2] / div[1] / h4 / a')
+INFO:CataloguePage:Finding element:('xpath', '// *[ @ id = "content"] / div[4] / div[5] / div / div[2] / div[1] / h4 / a')
+INFO:CataloguePage:Opening:http://localhost//index.php?route=product/category&path=20
+INFO:CataloguePage:Finding element:('xpath', '// *[ @ id = "content"] / div[4] / div[6] / div / div[2] / div[1] / h4 / a')
+INFO:CataloguePage:Finding element:('xpath', '// *[ @ id = "content"] / div[4] / div[6] / div / div[2] / div[1] / h4 / a')
+INFO:CataloguePage:Opening:http://localhost//index.php?route=product/category&path=20
+INFO:CataloguePage:Finding element:('xpath', '// *[ @ id = "content"] / div[4] / div[7] / div / div[2] / div[1] / h4 / a')
+INFO:CataloguePage:Opening:http://localhost//index.php?route=product/category&path=20
+INFO:CataloguePage:Finding element:('xpath', '// *[ @ id = "content"] / div[4] / div[8] / div / div[2] / div[1] / h4 / a')
+INFO:CataloguePage:Opening:http://localhost//index.php?route=product/category&path=20
+INFO:CataloguePage:Finding element:('css selector', '#input-limit')
+INFO:CataloguePage:Finding element:('css selector', '#input-limit option[selected="selected"]')
+INFO:CataloguePage:15 and 15 found
+INFO:CataloguePage:Opening:http://localhost//index.php?route=product/category&path=20
+INFO:CataloguePage:Finding element:('css selector', '#input-limit')
+INFO:CataloguePage:Finding element:('css selector', '#input-limit option[selected="selected"]')
+INFO:CataloguePage:25 and 25 found
+INFO:CataloguePage:Opening:http://localhost//index.php?route=product/category&path=20
+INFO:CataloguePage:Finding element:('css selector', '#input-limit')
+INFO:CataloguePage:Finding element:('css selector', '#input-limit option[selected="selected"]')
+INFO:CataloguePage:50 and 50 found
+INFO:CataloguePage:Opening:http://localhost//index.php?route=product/category&path=20
+INFO:CataloguePage:Finding element:('css selector', '#input-limit')
+INFO:CataloguePage:Finding element:('css selector', '#input-limit option[selected="selected"]')
+INFO:CataloguePage:75 and 75 found
+INFO:CataloguePage:Opening:http://localhost//index.php?route=product/category&path=20
+INFO:CataloguePage:Finding element:('css selector', '#input-limit')
+INFO:CataloguePage:Finding element:('css selector', '#input-limit option[selected="selected"]')
+INFO:CataloguePage:100 and 100 found
+INFO:CustomerLoginPage:Opening:http://localhost/index.php?route=account/login
+INFO:CustomerLoginPage:Finding element:('css selector', '.well > a')
+INFO:CustomerLoginPage:Finding element:('css selector', '.col-sm-9 h1')
+INFO:CustomerLoginPage:Registration page opened
+INFO:CustomerLoginPage:Finding element:('css selector', '#input-firstname')
+INFO:CustomerLoginPage:Finding element:('css selector', '#input-lastname')
+INFO:CustomerLoginPage:Finding element:('css selector', '#input-email')
+INFO:CustomerLoginPage:Finding element:('css selector', '#input-telephone')
+INFO:CustomerLoginPage:Finding element:('css selector', '#input-password')
+INFO:CustomerLoginPage:Finding element:('css selector', '#input-confirm')
+INFO:CustomerLoginPage:Finding element:('css selector', '[name="agree"]')
+INFO:CustomerLoginPage:Finding element:('css selector', '.btn.btn-primary')
+INFO:CustomerLoginPage:Finding element:('css selector', '.col-sm-9 h1')
+INFO:CustomerLoginPage:Finding element exists:('xpath', '//*[@id="content"]/div/div/a')
+INFO:CustomerLoginPage:Opening:http://localhost/index.php?route=account/login
+INFO:CustomerLoginPage:Finding element:('css selector', '.form-group > a')
+INFO:CustomerLoginPage:Finding element:('css selector', '.col-sm-9 h1')
+INFO:CustomerLoginPage:Finding element:('css selector', '#input-email')
+INFO:CustomerLoginPage:Finding element:('css selector', '.btn.btn-primary')
+INFO:CustomerLoginPage:Finding element:('css selector', '.alert')
+INFO:CustomerLoginPage:Finding element:('css selector', '.alert')
+INFO:CustomerLoginPage:Password resend
+INFO:CustomerLoginPage:Opening:http://localhost/index.php?route=account/login
+INFO:CustomerLoginPage:Finding element:('css selector', '#input-email')
+INFO:CustomerLoginPage:Finding element:('css selector', '#input-password')
+INFO:CustomerLoginPage:Finding element:('css selector', '.form-group + .btn.btn-primary')
+INFO:CustomerLoginPage:Finding element:('css selector', '.col-sm-9 h2')
+INFO:CustomerLoginPage:Header:My Account found
+INFO:CustomerLoginPage:Opening:http://localhost/index.php?route=account/login
+INFO:CustomerLoginPage:Finding element:('css selector', '.breadcrumb li a')
+INFO:CustomerLoginPage:Finding element:('css selector', 'h3')
+INFO:CustomerLoginPage:Main page header:Featured
+INFO:MainPage:Opening:http://localhost/
+INFO:MainPage:Finding element:('css selector', '[name="search"]')
+INFO:MainPage:iPhone sended to ('css selector', '[name="search"]')
+INFO:MainPage:Finding element:('css selector', '.btn.btn-default.btn-lg')
+INFO:MainPage:Finding element:('css selector', '.col-sm-12 h1')
+INFO:MainPage:Finding elements:('css selector', 'h4')
+INFO:MainPage:Opening:http://localhost/
+INFO:MainPage:Finding element:('css selector', '[name="search"]')
+INFO:MainPage:MacBook sended to ('css selector', '[name="search"]')
+INFO:MainPage:Finding element:('css selector', '.btn.btn-default.btn-lg')
+INFO:MainPage:Finding element:('css selector', '.col-sm-12 h1')
+INFO:MainPage:Finding elements:('css selector', 'h4')
+INFO:MainPage:Opening:http://localhost/
+INFO:MainPage:Finding element:('css selector', '.fa.fa-shopping-cart')
+INFO:MainPage:Basket page opened
+INFO:MainPage:Finding element:('css selector', '.col-sm-12 h1')
+INFO:MainPage:Opening:http://localhost/
+INFO:MainPage:Finding elements:('css selector', '.dropdown-menu.dropdown-menu-right li a')
+INFO:MainPage:Finding element:('css selector', '[title="My Account"]')
+INFO:MainPage:Button: <selenium.webdriver.remote.webelement.WebElement (session="7e3321f1b39d682c363e8f504ca10a70", element="11d1cbc5-723e-4320-8ed7-75864c4fa726")> clicked
+INFO:MainPage:Opening:http://localhost/
+INFO:MainPage:Finding elements:('css selector', '.dropdown-menu.dropdown-menu-right li a')
+INFO:MainPage:Finding element:('css selector', '[title="My Account"]')
+INFO:MainPage:Button: <selenium.webdriver.remote.webelement.WebElement (session="98b3ff02d4dc414115475dd3a4178be9", element="d58b8443-254e-48be-a20c-a75d2be4c637")> clicked
+INFO:MainPage:Opening:http://localhost/
+INFO:MainPage:Finding elements:('css selector', '.swiper-pagination.carousel0.swiper-pagination-clickable.swiper-pagination-bullets > * ')
+INFO:MainPage:Button: <selenium.webdriver.remote.webelement.WebElement (session="9f6e5873448bcb71b9688a2d8525d618", element="3337f722-9795-4491-a627-f2f109a287e6")> clicked
+INFO:MainPage:Button: <selenium.webdriver.remote.webelement.WebElement (session="9f6e5873448bcb71b9688a2d8525d618", element="16a4397d-3214-4cdb-9444-116ddee09c17")> clicked
+INFO:MainPage:Button: <selenium.webdriver.remote.webelement.WebElement (session="9f6e5873448bcb71b9688a2d8525d618", element="a11a603e-d3f0-411b-9730-65da098ba5d7")> clicked
+INFO:MainPage:Button: <selenium.webdriver.remote.webelement.WebElement (session="9f6e5873448bcb71b9688a2d8525d618", element="c007a056-e9ef-4e93-a19b-cbc065dbebb7")> clicked
+INFO:MainPage:Button: <selenium.webdriver.remote.webelement.WebElement (session="9f6e5873448bcb71b9688a2d8525d618", element="5c1f751a-0c3d-4e70-a248-0fa6c07b9766")> clicked
+INFO:MainPage:Button: <selenium.webdriver.remote.webelement.WebElement (session="9f6e5873448bcb71b9688a2d8525d618", element="7bc8a778-aa6d-48ad-81c0-6c3fa5630d2a")> clicked
+INFO:MainPage:Button: <selenium.webdriver.remote.webelement.WebElement (session="9f6e5873448bcb71b9688a2d8525d618", element="ef3071d7-89d6-472b-90e0-e009da1643ba")> clicked
+INFO:MainPage:Button: <selenium.webdriver.remote.webelement.WebElement (session="9f6e5873448bcb71b9688a2d8525d618", element="23907647-8ff9-4062-9668-c30c5afe6dc1")> clicked
+INFO:MainPage:Button: <selenium.webdriver.remote.webelement.WebElement (session="9f6e5873448bcb71b9688a2d8525d618", element="c79b4d3b-bba0-4e1f-b019-06f9109be696")> clicked
+INFO:MainPage:Button: <selenium.webdriver.remote.webelement.WebElement (session="9f6e5873448bcb71b9688a2d8525d618", element="e49af427-b9fe-4f61-a29f-c7c364f56ebe")> clicked
+INFO:MainPage:Button: <selenium.webdriver.remote.webelement.WebElement (session="9f6e5873448bcb71b9688a2d8525d618", element="e71fc40a-a007-4063-9ae4-ba4f636d82a2")> clicked
+INFO:ProductCardPage:Opening:http://localhost/index.php?route=product/product&path=57&product_id=49
+INFO:ProductCardPage:Finding element:('css selector', '.btn-group+h1')
+INFO:ProductCardPage:Finding element:('css selector', '#button-cart')
+INFO:ProductCardPage:Finding element:('css selector', '.alert.alert-success.alert-dismissible a')
+INFO:ProductCardPage:Finding element:('css selector', '#cart button #cart-total')
+INFO:ProductCardPage:Finding element:('css selector', '.text-left a')
+INFO:ProductCardPage:Found prod_name:Samsung Galaxy Tab 10.1 name_in_message:Samsung Galaxy Tab 10.1 name_in_basket:Samsung Galaxy Tab 10.1
+INFO:ProductCardPage:Opening:http://localhost/index.php?route=product/product&path=57&product_id=49
+INFO:ProductCardPage:Finding element:('css selector', '.nav.nav-tabs :nth-child(2) > a')
+INFO:ProductCardPage:Finding element:('css selector', '#review + h2')
+INFO:ProductCardPage:Review tab opened
+INFO:ProductCardPage:Finding element:('css selector', '#input-name')
+INFO:ProductCardPage:Finding element:('css selector', '#input-review')
+INFO:ProductCardPage:Finding element:('css selector', '[type="radio"][value="5"]')
+INFO:ProductCardPage:Finding element:('css selector', '#button-review')
+INFO:ProductCardPage:Finding element:('css selector', '.alert.alert-success.alert-dismissible')
+INFO:ProductCardPage:Final message after clickThank you for your review. It has been submitted to the webmaster for approval.
+INFO:ProductCardPage:Opening:http://localhost/index.php?route=product/product&path=57&product_id=49
+INFO:ProductCardPage:Finding element:('css selector', '.btn-group [data-original-title="Add to Wish List"]')
+INFO:ProductCardPage:Finding element exists:('css selector', '.alert.alert-success.alert-dismissible')
+INFO:ProductCardPage:Element presented: ('css selector', '.alert.alert-success.alert-dismissible')
+INFO:ProductCardPage:Opening:http://localhost/index.php?route=product/product&path=57&product_id=49
+INFO:ProductCardPage:Finding element:('css selector', '.image-additional > a')
+INFO:ProductCardPage:Finding element:('css selector', '.mfp-img')
+INFO:ProductCardPage:Finding element:('css selector', '.mfp-img')
+INFO:ProductCardPage:Finding element:('css selector', '.mfp-img')
+INFO:ProductCardPage:Finding element:('css selector', '.mfp-img')
+INFO:ProductCardPage:Finding element:('css selector', '[title="Close (Esc)"]')
+INFO:ProductCardPage:Finding element exists:('css selector', '.image-additional > a')
+INFO:ProductCardPage:Images clicked and closed
+INFO:ProductCardPage:Opening:http://localhost/index.php?route=product/product&path=57&product_id=49
+INFO:ProductCardPage:Finding element:('css selector', '.breadcrumb li:nth-last-child(2)')
+INFO:ProductCardPage:Finding element:('css selector', '.breadcrumb li:nth-last-child(2)')
+INFO:ProductCardPage:Finding element:('css selector', 'h2')
+INFO:ProductCardPage:Elements presented: device_type: Tablets device_header:Tablets
