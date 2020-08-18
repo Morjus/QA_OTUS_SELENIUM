@@ -34,8 +34,8 @@ class AdminLoginPage(BasePage):
             self.find(locator=self.PASSW_FIELD).send_keys(passw)
 
     def login(self, UNAME_FIELD, PASSW_FIELD):
-        self._set_username_(UNAME_FIELD)
-        self._set_password_(PASSW_FIELD)
+        self._set_username(UNAME_FIELD)
+        self._set_password(PASSW_FIELD)
         with allure.step(f"Нажимаю кнопку {self.SUBMIT_BUTTON}"):
             self.find(locator=self.SUBMIT_BUTTON).click()
         text = self.find(locator=self.HEADER).text
